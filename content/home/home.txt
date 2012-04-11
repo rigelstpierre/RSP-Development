@@ -1,0 +1,4 @@
+Title: Home
+----
+Text: Hailing from the great western province of British Columbia, Canada, Rigel writes code. Specializing in Ruby, Javascript, Objective-C, Sinatra, and HTML5/CSS3, he works hard to make things that everyone can enjoy using. From websites to iOS Apps, from Wordpress content management systems to customized interactive web applications, every line of code is lovingly hand crafted. His clients include The Phuse, ICON Worldwide, Shane and Peter, and BNOTIONS. In his spare time, Rigel likes to produce music, ingest coffee, and ride his mountain bike in the wild BC wilderness.
+
