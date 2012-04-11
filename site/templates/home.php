@@ -2,24 +2,24 @@
 		<div id="main">
 			<section class="work">
 				<h2><img src="assets/images/work.png" />WORK</h2>
-				<div>
-					<img src="assets/images/workplaceholder.png" />
-				</div>
-				<div>
-					<img src="assets/images/workplaceholder.png" />
-				</div>
-				<div>
-					<img src="assets/images/workplaceholder.png" />
-				</div>
-				<div>
-					<img src="assets/images/workplaceholder.png" />
-				</div>
-				<div>
-					<img src="assets/images/workplaceholder.png" />
-				</div>
-				<div>
-					<img src="assets/images/workplaceholder.png" />
-				</div>
+					<div>
+						<img src="assets/images/work/everlovin-thumb.png" />
+					</div>
+					<div>
+						<img src="assets/images/work/dotkiwi-thumb.png" />
+					</div>
+					<div>
+						<img src="assets/images/work/vimtrek-thumb.png" />
+					</div>
+					<div>
+						<img src="assets/images/work/iconworldwide-thumb.png" />
+					</div>
+					<div>
+						<img src="assets/images/work/fom-thumb.png" />
+					</div>
+					<div>
+						<img src="assets/images/work/simpact-thumb.png" />
+					</div>
 			</section>
 			<section class="about">
 				<h2><img src="assets/images/about.png" />ABOUT</h2>

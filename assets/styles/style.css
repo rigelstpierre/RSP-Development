@@ -133,13 +133,45 @@ header {
   #main .work {
     width: 500px;
     float: right;
-    min-height: 500px; }
+    min-height: 600px; }
     #main .work h2 {
-      width: 490px; }
+      width: 450px; }
     #main .work div {
+      width: 219px;
+      height: 149px;
       float: left;
-      padding-right: 10px;
-      padding-bottom: 10px; }
+      margin: 10px 10px 0 0;
+      border: #8b8b8b 2px solid; }
+  #main .portfolio h2 {
+    width: 950px; }
+  #main .portfolio div {
+    width: 980px; }
+    #main .portfolio div div.work-item {
+      width: 219px;
+      height: 149px;
+      float: left;
+      margin: 20px 20px 0 0;
+      position: relative;
+      border: #8b8b8b 2px solid; }
+      #main .portfolio div div.work-item:hover a {
+        display: block; }
+      #main .portfolio div div.work-item a, #main .portfolio div div.work-item a:visited {
+        position: absolute;
+        top: 60px;
+        left: 42px;
+        display: none;
+        font-family: 'FlamaSemicondensedMedium';
+        text-align: center;
+        line-height: 30px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 14px;
+        color: #fff;
+        width: 131px;
+        height: 32px;
+        background: url("../images/big-btn.png") no-repeat 0 0; }
+        #main .portfolio div div.work-item a:hover, #main .portfolio div div.work-item a:visited:hover {
+          background: url("../images/big-btn.png") no-repeat 0 -33px; }
   #main article {
     width: 700px;
     margin: 0 auto;
@@ -219,7 +251,8 @@ header {
       /* W3C */
       filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ebebeb', endColorstr='#fefefe',GradientType=0 );
       /* IE6-9 */
-      color: #8f8f8f; }
+      color: #8f8f8f;
+      font-family: 'TisaOTRegular'; }
     #main .contact input[type="submit"] {
       width: 132px;
       height: 32px;
