@@ -13,7 +13,9 @@
   <link rel="apple-touch-icon" href="<?php echo u('assets/images/apple-touch-icon.png') ?>" />
 
   <?php echo css('assets/styles/style.css') ?>
-
+  <?php echo css('assets/styles/default/default.css') ?>
+  <?php echo css('assets/styles/nivo-slider.css') ?>
+  
 </head>
 
 <body>

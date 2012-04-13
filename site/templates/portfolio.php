@@ -1,31 +1,31 @@
 <?php snippet('header') ?>
 		<div id="main">
 			<section class="portfolio">
-				<h2><img src="assets/images/work.png" />WORK</h2>
+				<h2><img src="assets/images/work.png" /><?php echo html($page->pagetitle()) ?></h2>
 				<div>
 					<div class="work-item">
-						<a href="#">Project Title</a>
-						<img src="assets/images/work/everlovin-thumb.png" />
+						<a href="<?php echo url('/portfolio/everlovin') ?>">Everlovin' Press</a>
+						<img src="<?php echo url('assets/images/work/everlovin-thumb.png') ?>"/>
 					</div>
 					<div class="work-item">
-						<a href="#">Project Title</a>
-						<img src="assets/images/work/dotkiwi-thumb.png" />
+						<a href="">Dot Kiwi</a>
+						<img src="<?php echo url('assets/images/work/dotkiwi-thumb.png') ?>" />
 					</div>
 					<div class="work-item">
-						<a href="#">Project Title</a>
-						<img src="assets/images/work/vimtrek-thumb.png" />
+						<a href="#">VIM Trek</a>
+						<img src="<?php echo url('assets/images/work/vimtrek-thumb.png') ?>" />
 					</div>
 					<div class="work-item">
-						<a href="#">Project Title</a>
-						<img src="assets/images/work/iconworldwide-thumb.png" />
+						<a href="#">ICON Worldwide</a>
+						<img src="<?php echo url('assets/images/work/iconworldwide-thumb.png') ?>" />
 					</div>
 					<div class="work-item">
-						<a href="#">Project Title</a>
-						<img src="assets/images/work/fom-thumb.png" />
+						<a href="#">FOM</a>
+						<img src="<?php echo url('assets/images/work/fom-thumb.png') ?>" />
 					</div>
 					<div class="work-item">
-						<a href="#">Project Title</a>
-						<img src="assets/images/work/simpact-thumb.png" />
+						<a href="#">SIMpact</a>
+						<img src="<?php echo url('assets/images/work/simpact-thumb.png') ?>" />
 					</div>
 				</div>
 			</section>

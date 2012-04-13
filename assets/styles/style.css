@@ -1,6 +1,5 @@
 @import url("normalize.css");
 @import url("form.css");
-@import url("jquery.twitter.js");
 /* @group Boilerplate Overrides
 ----------------------------------------------- */
 a, a:active, a:visited {
@@ -120,12 +119,12 @@ header {
       margin-bottom: 10px; }
       #main #twitter ul li a {
         font-family: 'TisaOTBold';
-        color: #ff5d54;
+        color: #40495B;
         text-decoration: none; }
         #main #twitter ul li a:hover {
           text-decoration: underline; }
   #main .music {
-    color: #ff5d54;
+    color: #40495B;
     font-family: 'TisaOTBold'; }
     #main .music dl dd {
       display: inline;
@@ -172,6 +171,24 @@ header {
         background: url("../images/big-btn.png") no-repeat 0 0; }
         #main .portfolio div div.work-item a:hover, #main .portfolio div div.work-item a:visited:hover {
           background: url("../images/big-btn.png") no-repeat 0 -33px; }
+  #main .portfolio-item {
+    width: 940px;
+    margin: 0 auto; }
+    #main .portfolio-item h3 {
+      text-align: center;
+      color: #8d8d8d;
+      text-transform: uppercase;
+      font-size: 14px; }
+      #main .portfolio-item h3 strong {
+        color: #484848; }
+    #main .portfolio-item p {
+      text-align: center; }
+    #main .portfolio-item .theme-default #slider {
+      margin: 0 auto;
+      width: 936px;
+      /* Make sure your images are the same size */
+      height: 543px;
+      /* Make sure your images are the same size */ }
   #main article {
     width: 700px;
     margin: 0 auto;
@@ -182,11 +199,11 @@ header {
       border-bottom: none;
       text-align: center;
       font-size: 24px;
-      color: #ff5d54;
+      color: #40495B;
       padding: 50px 0 0 0;
       font-family: 'FlamaSemicondensedMedium'; }
       #main article a h2:hover {
-        color: #ff5d54;
+        color: #40495B;
         text-decoration: underline; }
     #main article span p {
       color: #747474;

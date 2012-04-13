@@ -17,5 +17,4 @@ $(document).ready(function(){
 		showProfileLink: false,
 		showTimestamp: false
 	});
-
 });

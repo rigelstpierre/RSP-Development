@@ -1,6 +1,5 @@
 @import url("normalize.css");
 @import url("form.css");
-@import url("jquery.twitter.js");
 
 @mixin grey-grad {
 	background: #ebebeb; /* Old browsers */
@@ -198,7 +197,7 @@ header {
 				margin-bottom: 10px;
 				a {
 					font-family: 'TisaOTBold';
-					color: #ff5d54;
+					color: #40495B;
 					text-decoration: none;
 					&:hover {
 						text-decoration: underline;
@@ -208,7 +207,7 @@ header {
 		}
 	}
 	.music {
-		color: #ff5d54;
+		color: #40495B;
 		font-family: 'TisaOTBold';
 		dl dd {
 			display: inline;
@@ -270,6 +269,27 @@ header {
 			}
 		}
 	}
+	.portfolio-item {
+		width: 940px;
+		margin: 0 auto;
+		h3 {
+			text-align: center;
+			color: #8d8d8d;
+			text-transform: uppercase;
+			font-size: 14px;
+			strong {
+				color: #484848
+			}
+		}
+		p {
+			text-align: center;
+		}
+		.theme-default #slider {
+			margin: 0 auto;
+		    width:936px; /* Make sure your images are the same size */
+		    height:543px; /* Make sure your images are the same size */
+		}
+	}
 	article {
 		width: 700px;
 		margin: 0 auto;
@@ -280,11 +300,11 @@ header {
 			border-bottom: none;
 			text-align: center;
 			font-size: 24px;
-			color: #ff5d54;
+			color: #40495B;
 			padding: 50px 0 0 0;
 			font-family: 'FlamaSemicondensedMedium';
 			&:hover {
-				color: #ff5d54;
+				color: #40495B;
 				text-decoration: underline;
 			}
 		}

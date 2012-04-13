@@ -1,11 +1,10 @@
 Title: Profile
 ----
-Subtitle: about me
+Subtitle: about
 ----
 PageTitle: I'M RIGEL AND I WRITE CODE
 ----
-Text: Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam id dolor id nibh ultricies vehicula ut id elit. Aenean lacinia bibendum nulla sed consectetur.
+Text: Hailing from the great western province of British Columbia, Canada, Rigel writes code. Specializing in Javascript, and HTML5/CSS3, he works hard to make things that everyone can enjoy using. From Wordpress content management systems to customized interactive web applications, every line of code is lovingly hand crafted. His clients include The Phuse, Domain7, ICON Worldwide, Shane and Peter, and BNOTIONS. In his spare time, Rigel likes to produce music, ingest coffee, and ride his fixed gear bike on the flats of Kelowna.
 
-Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui.
+Using Photoshop and Sublime Text 2 to create pixel perfect website, while listening to jams in iTunes or Rdio. To keep every project backed up and controlled, git and github are used. Hosting is provided by the super fine folks at Media Temple.
 
-Nulla vitae elit libero, a pharetra augue. Donec sed odio dui. Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Etiam porta sem malesuada magna mollis euismod.

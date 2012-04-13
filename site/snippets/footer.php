@@ -6,11 +6,15 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
 	<script>!window.jQuery && document.write(unescape('%3Cscript src="/javascripts/libs/jquery.1.6.2.min.js"%3E%3C/script%3E'))</script>
 	
-	<script src="assets/javascripts/plugins.js"></script>
-	<script src="assets/javascripts/script.js"></script>
-	<script src="assets/javascripts/libs/lastfm.js"></script>
-	<script src="assets/javascripts/libs/jquery.twitter.js"></script>
-	<script src="assets/javascripts/libs/jquery.validate.js"></script>
+	<script src="<?php echo url('assets/javascripts/script.js') ?>"></script>
+	<script src="<?php echo url('assets/javascripts/libs/lastfm.js') ?>"></script>
+	<script src="<?php echo url('assets/javascripts/libs/jquery.twitter.js') ?>"></script>
+	<script src="<?php echo url('assets/javascripts/libs/jquery.nivo.slider.pack.js') ?>"></script>
+	<script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
 	
 	<!--[if lt IE 7 ]>
 		<script src="/javascripts/libs/dd_belatedpng.js"></script>
