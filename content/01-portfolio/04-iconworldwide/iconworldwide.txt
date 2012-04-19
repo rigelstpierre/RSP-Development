@@ -4,3 +4,4 @@ WorkType: HTML/CSS, Wordpress, Javascript, UI/UX Design
 ----
 Text: Seriously awesome Wordpress site developed for ICON Worldwide. Expermeinted with AJAX to load content in.
 ----
+Link: http://icon-worldwide.com

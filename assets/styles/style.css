@@ -61,6 +61,23 @@ p {
   line-height: 20px;
   font-family: 'TisaOTRegular'; }
 
+a.styled, a.styled:visited {
+  display: block;
+  font-family: 'FlamaSemicondensedMedium';
+  text-align: center;
+  line-height: 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #fff;
+  width: 131px;
+  height: 32px;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  background: url("../images/big-btn.png") no-repeat 0 0; }
+  a.styled:hover, a.styled:visited:hover {
+    background: url("../images/big-btn.png") no-repeat 0 -33px; }
+
 body {
   background: #f2f2f2 url(../images/bg.jpg) repeat-x; }
 
