@@ -9,7 +9,7 @@
 				<span><p>POSTED <?php echo $article->date('j F Y') ?></p></span>
 				<hr />
 				<p><?php echo excerpt($article->text(), 300) ?></p>
-				<a href="#">3 COMMENTS</a>
+				<a href="#"></a>
 			</article>
 
   		<?php endforeach ?>

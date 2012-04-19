@@ -188,13 +188,15 @@ header {
       width: 936px;
       /* Make sure your images are the same size */
       height: 543px;
-      /* Make sure your images are the same size */ }
+      /* Make sure your images are the same size */
+      margin-bottom: 100px; }
   #main article {
     width: 700px;
     margin: 0 auto;
     background: white url("../images/article-bg.png") repeat;
-    margin-bottom: 30px; }
-    #main article a h2 {
+    margin-bottom: 30px;
+    border-radius: 10px; }
+    #main article a h2, #main article h2 {
       width: 100%;
       border-bottom: none;
       text-align: center;
@@ -202,7 +204,7 @@ header {
       color: #40495B;
       padding: 50px 0 0 0;
       font-family: 'FlamaSemicondensedMedium'; }
-      #main article a h2:hover {
+      #main article a h2:hover, #main article h2:hover {
         color: #40495B;
         text-decoration: underline; }
     #main article span p {
@@ -320,6 +322,8 @@ footer {
   text-align: center;
   color: #89909c;
   font-size: 14px; }
+  footer em {
+    color: red; }
 
 /* @group Classes
 ----------------------------------------------- */

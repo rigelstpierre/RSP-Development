@@ -8,3 +8,8 @@ Text: Hailing from the great western province of British Columbia, Canada, Rigel
 
 Using Photoshop and Sublime Text 2 to create pixel perfect website, while listening to jams in iTunes or Rdio. To keep every project backed up and controlled, git and github are used. Hosting is provided by the super fine folks at Media Temple.
 
+Credit Where Credit Is Due:
+Site Design and Branding: Mitch Bartlett
+Copy Writing: Matt Herron
+Photography: Rhys Albrecht
+CMS: Kirby CMS

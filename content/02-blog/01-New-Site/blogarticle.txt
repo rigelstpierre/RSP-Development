@@ -1,0 +1,10 @@
+Title: The New Rigel St. Pierre | Development Site
+----
+Date: 17.04.2012
+----
+Text: I finally got around to rebuilding my website. I trashed my site back in October while I was still working in Switzerland, with the intention of throwing together a new one over a weekend. This never happened and what I eneded up doing was creating a temp site in 2 hours one evening in November in order to apply for a job. It was bad and I knew it but I got the job and stopped thinking about my site. In January I again was doing more freelance work and took on the task of rebuilding the site. After going through two designers, the awesome Mitch Bartlett, knocked my new brand and site out. It's been a slow process rebuilding the site purely based on my work load but I set a goal to launch sometime in April and I've achived it.
+
+On the techincal side I wanted to do something a little different. I decided to use Kirby CMS made by Bastian Allgeier. I liked the fact that I could use git to mange and deploy my site. Don't get me wrong I love Wordpress and build themes for it quite offten for clients, but this was a chance to try something new. I'm really happy with the CMS so far and am looking forward to trying it out on clients at somepoint. I really suggest that you check it out and give a chance. With the panel in alpha I think it will make it super easy for non technincal people to use.
+
+Other than that the site is pretty basic and nothing super specical happening (yet). Something I'm extremly proud of is the last.fm scrobbling that I tied in. I love music and work to it all day. It shows what's been playing from my iPhone, iTunes, and Rdio. The delay is around 30 seconds or so. I plain to polish the code up a bit and then release it via GitHub. Other than that I'm looking to make it Responsive and add some JS magic when I get a chance soon. Feel free to take a poke around and if you have any feedback I'd love to hear about it!
+----

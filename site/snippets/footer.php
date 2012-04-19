@@ -1,5 +1,5 @@
 		<footer>
-			<p><?php echo kirbytext($site->copyright()) ?></p>
+			<p><?php echo kirbytext($site->copyright()) ?></p>Made with <a href="http://getkirby.com">Kirby</a> and <em>♥</em>
 		</footer>
 	</div> <!-- end of #container -->
 
@@ -11,10 +11,12 @@
 	<script src="<?php echo url('assets/javascripts/libs/jquery.twitter.js') ?>"></script>
 	<script src="<?php echo url('assets/javascripts/libs/jquery.nivo.slider.pack.js') ?>"></script>
 	<script type="text/javascript">
-    $(window).load(function() {
-        $('#slider').nivoSlider();
+$(window).load(function() {
+    $('#slider').nivoSlider({
+        effect: 'slideInLeft', // Specify sets like: 'fold,fade,sliceDown'
     });
-    </script>
+});
+</script>
 	
 	<!--[if lt IE 7 ]>
 		<script src="/javascripts/libs/dd_belatedpng.js"></script>

@@ -288,6 +288,7 @@ header {
 			margin: 0 auto;
 		    width:936px; /* Make sure your images are the same size */
 		    height:543px; /* Make sure your images are the same size */
+		    margin-bottom: 100px;
 		}
 	}
 	article {
@@ -295,7 +296,8 @@ header {
 		margin: 0 auto;
 		background: #fff url('../images/article-bg.png') repeat;
 		margin-bottom: 30px;
-		a h2 {
+		border-radius: 10px;
+		a h2, h2 {
 			width: 100%;
 			border-bottom: none;
 			text-align: center;
@@ -393,6 +395,9 @@ footer {
 	text-align: center;
 	color: #89909c;
 	font-size: 14px;
+	em {
+		color: red;
+	}
 }
 
 

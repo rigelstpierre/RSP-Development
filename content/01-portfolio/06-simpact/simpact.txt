@@ -1,0 +1,6 @@
+Client: ICON Worldwide
+----
+WorkType: HTML/CSS, Tumblr, Javascript
+----
+Text: Simple Tumblr blog developed for The University of St.Gallen program SIMPact.
+----

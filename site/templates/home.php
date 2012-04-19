@@ -3,22 +3,19 @@
 			<section class="work">
 				<h2><img src="assets/images/work.png" />WORK</h2>
 					<div>
-						<img src="assets/images/work/everlovin-thumb.png" />
+						<a href="<?php echo url('portfolio/dotkiwi') ?>"><img src="<?php echo url('assets/images/work/dotkiwi-thumb.png') ?>" /></a>
 					</div>
 					<div>
-						<img src="assets/images/work/dotkiwi-thumb.png" />
+						<a href="<?php echo url('portfolio/vimtrek') ?>"><img src="<?php echo url('assets/images/work/vimtrek-thumb.png') ?>" /></a>
 					</div>
 					<div>
-						<img src="assets/images/work/vimtrek-thumb.png" />
+						<a href="<?php echo url('portfolio/iconworldwide') ?>"><img src="<?php echo url('assets/images/work/iconworldwide-thumb.png') ?>" /></a>
 					</div>
 					<div>
-						<img src="assets/images/work/iconworldwide-thumb.png" />
+						<a href="<?php echo url('portfolio/fom') ?>"><img src="<?php echo url('assets/images/work/fom-thumb.png') ?>" /></a>
 					</div>
 					<div>
-						<img src="assets/images/work/fom-thumb.png" />
-					</div>
-					<div>
-						<img src="assets/images/work/simpact-thumb.png" />
+						<a href="<?php echo url('portfolio/simpact') ?>"><img src="<?php echo url('assets/images/work/simpact-thumb.png') ?>" /></a>
 					</div>
 			</section>
 			<section class="about">
