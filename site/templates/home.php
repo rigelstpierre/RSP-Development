@@ -3,7 +3,7 @@
 			<section class="work">
 				<h2><img src="assets/images/work.png" />WORK</h2>
 					<div>
-						<a href="<?php echo url('portfolio/dotkiwi') ?>"><img src="<?php echo url('assets/images/work/dotkiwi-thumb.png') ?>" /></a>
+						<a href="<?php echo url('portfolio/dreamobject') ?>"><img src="<?php echo url('assets/images/work/dream-thumb.png') ?>" /></a>
 					</div>
 					<div>
 						<a href="<?php echo url('portfolio/vimtrek') ?>"><img src="<?php echo url('assets/images/work/vimtrek-thumb.png') ?>" /></a>
