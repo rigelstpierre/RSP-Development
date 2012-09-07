@@ -9,7 +9,7 @@
 					</div> -->
 					<div class="work-item">
 						<a href="<?php echo url('portfolio/dreamobject') ?>">Dream Host</a>
-						<img src="<?php echo url('assets/images/work/dream-thumb.png') ?>" />
+						<img src="<?php echo url('assets/images/work/dreamobject-thumb.png') ?>" />
 					</div>
 					<div class="work-item">
 						<a href="<?php echo url('portfolio/vimtrek') ?>">VIM Trek</a>
