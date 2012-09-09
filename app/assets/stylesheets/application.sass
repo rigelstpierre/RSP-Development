@@ -1,0 +1,43 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+
+@font-face
+  font-family: 'flama_blackregular'
+  src: url('assets/flama-black-webfont.eot')
+  src: url('assets/flama-black-webfont.eot?#iefix') format('embedded-opentype'), url('assets/flama-black-webfont.woff') format('woff'), url('assets/flama-black-webfont.ttf') format('truetype'), url('assets/flama-black-webfont.svg#flama_blackregular') format('svg')
+  font-weight: normal
+  font-style: normal
+
+h1
+  font-family: 'flama_blackregular'
+  font-size: 18px
+  color: #fff
+
+@import normalize
+
+.container
+  width: 940px
+  margin: 0 auto
+
+header
+  background: image-url("header-bg.png") repeat-x
+  height: 133px
+  width: 100%
+  img
+    margin: 25px 0 0 0
+    float: left
+  h1
+    float: left
+    text-transform: uppercase
+    line-height: 25px

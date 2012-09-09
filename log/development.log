@@ -1,0 +1,2276 @@
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-09-08 11:31:28 -0700
+Served asset /rails.png - 200 OK (14ms)
+MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+MONGODB (37ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+MONGODB (2ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-09-08 11:48:57 -0700
+Served asset /rails.png - 304 Not Modified (6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-08 11:49:05 -0700
+Processing by PagesController#index as HTML
+MONGODB (16ms) test['system.namespaces'].find({})
+MONGODB (759ms) test['$cmd'].find({:create=>"pages"}).limit(-1)
+MONGODB (135ms) test['pages'].find({})
+  Rendered pages/index.html.erb within layouts/application (927.0ms)
+Compiled pages.css  (101ms)  (pid 87468)
+Compiled scaffolds.css  (35ms)  (pid 87468)
+Compiled application.css  (239ms)  (pid 87468)
+Compiled jquery.js  (10ms)  (pid 87468)
+Compiled jquery_ujs.js  (0ms)  (pid 87468)
+Compiled pages.js  (1008ms)  (pid 87468)
+Compiled application.js  (1241ms)  (pid 87468)
+Completed 200 OK in 2736ms (Views: 2734.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-08 11:49:08 -0700
+Served asset /application.css - 200 OK (8ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-09-08 11:49:08 -0700
+Served asset /pages.js - 200 OK (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-08 11:49:08 -0700
+Served asset /jquery.js - 200 OK (5ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-08 11:49:08 -0700
+Served asset /application.js - 200 OK (35ms)
+MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+MONGODB (0ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-09-08 11:49:15 -0700
+Served asset /pages.css - 200 OK (36ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-08 11:49:15 -0700
+Served asset /jquery_ujs.js - 200 OK (5ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-08 11:49:15 -0700
+Served asset /scaffolds.css - 200 OK (3ms)
+
+
+Started GET "/pages/new" for 127.0.0.1 at 2012-09-08 11:49:21 -0700
+Processing by PagesController#new as HTML
+  Rendered pages/_form.html.erb (19.2ms)
+  Rendered pages/new.html.erb within layouts/application (28.2ms)
+Completed 200 OK in 40ms (Views: 38.3ms)
+
+
+Started GET "/pages/new" for 127.0.0.1 at 2012-09-08 12:00:18 -0700
+Processing by PagesController#new as HTML
+  Rendered pages/_form.html.erb (222.4ms)
+  Rendered pages/new.html.erb within layouts/application (242.0ms)
+Completed 200 OK in 690ms (Views: 413.3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-08 12:00:20 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (123ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-08 12:00:21 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-09-08 12:00:21 -0700
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-08 12:00:21 -0700
+Served asset /jquery.js - 304 Not Modified (504ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-08 12:00:22 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-09-08 12:00:22 -0700
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-08 12:00:22 -0700
+Served asset /application.js - 304 Not Modified (83ms)
+
+
+Started POST "/pages" for 127.0.0.1 at 2012-09-08 12:01:15 -0700
+Processing by PagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eM77NGTSNBEuSoWWZNGlXKb1ebzbkuevt+TUQGyntxg=", "page"=>{"title"=>"About", "content"=>"Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec id elit non mi porta gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nullam id dolor id nibh ultricies vehicula ut id elit.\r\n\r\nNulla vitae elit libero, a pharetra augue. Nullam quis risus eget urna mollis ornare vel eu leo. Vestibulum id ligula porta felis euismod semper. Donec id elit non mi porta gravida at eget metus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Cras justo odio, dapibus ac facilisis in, egestas eget quam.", "slug"=>"about"}, "commit"=>"Create Page"}
+MONGODB (30ms) test['pages'].find({:slug=>/^about(?:-(\d+))?$/, :_id=>{"$ne"=>BSON::ObjectId('504b95fb0fd09855ad000003')}}, {:_type=>1, :slug=>1})
+MONGODB (0ms) test['pages'].insert([{"_id"=>BSON::ObjectId('504b95fb0fd09855ad000003'), "title"=>"About", "content"=>"Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec id elit non mi porta gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nullam id dolor id nibh ultricies vehicula ut id elit.\r\n\r\nNulla vitae elit libero, a pharetra augue. Nullam quis risus eget urna mollis ornare vel eu leo. Vestibulum id ligula porta felis euismod semper. Donec id elit non mi porta gravida at eget metus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Cras justo odio, dapibus ac facilisis in, egestas eget quam.", "slug"=>"about"}])
+Redirected to http://rigelstpierre.dev/pages/about
+Completed 302 Found in 418ms
+
+
+Started GET "/pages/about" for 127.0.0.1 at 2012-09-08 12:01:15 -0700
+Processing by PagesController#show as HTML
+  Parameters: {"id"=>"about"}
+Completed 500 Internal Server Error in 1ms
+
+BSON::InvalidObjectId (illegal ObjectId format: about):
+  app/controllers/pages_controller.rb:16:in `show'
+
+
+  Rendered /Users/rigelstpierre/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.6ms)
+  Rendered /Users/rigelstpierre/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.5ms)
+  Rendered /Users/rigelstpierre/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (24.8ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2012-09-08 12:01:28 -0700
+Processing by PagesController#index as HTML
+MONGODB (3ms) test['pages'].find({})
+  Rendered pages/index.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 18ms (Views: 17.4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-08 12:01:28 -0700
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-09-08 12:01:28 -0700
+Served asset /scaffolds.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-08 12:01:28 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-08 12:01:28 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-08 12:01:28 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-09-08 12:01:28 -0700
+Served asset /pages.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-08 12:01:28 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/pages/about" for 127.0.0.1 at 2012-09-08 12:01:35 -0700
+Processing by PagesController#show as HTML
+  Parameters: {"id"=>"about"}
+Completed 500 Internal Server Error in 0ms
+
+BSON::InvalidObjectId (illegal ObjectId format: about):
+  app/controllers/pages_controller.rb:16:in `show'
+
+
+  Rendered /Users/rigelstpierre/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.6ms)
+  Rendered /Users/rigelstpierre/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.9ms)
+  Rendered /Users/rigelstpierre/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.1ms)
+
+
+Started GET "/pages/about" for 127.0.0.1 at 2012-09-08 12:03:35 -0700
+Processing by PagesController#show as HTML
+  Parameters: {"id"=>"about"}
+MONGODB (2ms) test['system.namespaces'].find({})
+MONGODB (7ms) test['pages'].find({:slug=>"about"}).limit(-1).sort([[:_id, :asc]])
+  Rendered pages/show.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 34ms (Views: 19.2ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-09-08 12:03:35 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-08 12:03:35 -0700
+Served asset /pages.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-08 12:03:35 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-08 12:03:35 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-08 12:03:35 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+Served asset /application.css - 304 Not Modified (25ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-09-08 12:03:36 -0700
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-08 12:03:36 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2012-09-08 12:10:19 -0700
+Processing by PagesController#index as HTML
+MONGODB (2ms) test['pages'].find({})
+  Rendered pages/index.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 23ms (Views: 21.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-08 12:10:19 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-08 12:10:19 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-09-08 12:10:19 -0700
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-08 12:10:19 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-08 12:10:19 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-09-08 12:10:19 -0700
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-08 12:10:19 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+MONGODB (0ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+MONGODB (0ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+MONGODB (0ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+MONGODB (0ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+MONGODB (1ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+MONGODB (1ms) test['system.namespaces'].find({})
+MONGODB (2ms) test['pages'].find({}).limit(-1).sort([[:_id, :asc]])
+MONGODB (1ms) test['pages'].find({}).limit(-1).sort([[:_id, :desc]])
+MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+MONGODB (0ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+
+
+Started GET "/pages" for 127.0.0.1 at 2012-09-09 12:37:59 -0700
+Processing by PagesController#index as HTML
+MONGODB (1ms) test['system.namespaces'].find({})
+MONGODB (1ms) test['pages'].find({})
+  Rendered pages/index.html.erb within layouts/application (14.6ms)
+Compiled application.css  (29ms)  (pid 89919)
+Completed 200 OK in 210ms (Views: 208.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-09 12:38:00 -0700
+Served asset /application.css - 200 OK (10ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-09 12:38:00 -0700
+Served asset /scaffolds.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-09 12:38:00 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-09 12:38:00 -0700
+Served asset /application.js - 304 Not Modified (12ms)
+MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+MONGODB (2ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-09-09 12:38:05 -0700
+Served asset /pages.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-09 12:38:05 -0700
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-09-09 12:38:05 -0700
+Served asset /pages.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/head.png" for 127.0.0.1 at 2012-09-09 12:38:05 -0700
+Served asset /head.png - 404 Not Found (6ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/head.png"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  railties (3.2.8) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:147:in `handle'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:99:in `rescue in block (2 levels) in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:96:in `block (2 levels) in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `each'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `block in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `loop'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:13:in `run'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/bin/nack_worker:4:in `<main>'
+
+
+  Rendered /Users/rigelstpierre/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (4.9ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2012-09-09 12:38:24 -0700
+Processing by PagesController#index as HTML
+MONGODB (4ms) test['system.namespaces'].find({})
+MONGODB (2ms) test['pages'].find({})
+  Rendered pages/index.html.erb within layouts/application (19.5ms)
+Compiled application.css  (39ms)  (pid 89921)
+Completed 200 OK in 136ms (Views: 134.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-09 12:38:25 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-09 12:38:25 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+Served asset /application.css - 200 OK (13ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-09-09 12:38:25 -0700
+Served asset /pages.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-09-09 12:38:25 -0700
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-09 12:38:25 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-09 12:38:25 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-09 12:38:25 -0700
+Served asset /application.js - 304 Not Modified (12ms)
+Served asset /jquery.js - 304 Not Modified (68ms)
+
+
+Started GET "/assets/header-bg.png" for 127.0.0.1 at 2012-09-09 12:38:25 -0700
+Served asset /header-bg.png - 200 OK (13ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2012-09-09 12:40:13 -0700
+Processing by PagesController#index as HTML
+MONGODB (0ms) test['pages'].find({})
+  Rendered pages/index.html.erb within layouts/application (4.0ms)
+Compiled _normalize.css  (0ms)  (pid 89921)
+Compiled application.css  (331ms)  (pid 89921)
+Completed 200 OK in 372ms (Views: 371.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-09 12:40:14 -0700
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2012-09-09 12:40:14 -0700
+Served asset /application.css - 200 OK (10ms)
+Served asset /_normalize.css - 200 OK (4ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-09-09 12:40:14 -0700
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-09 12:40:14 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-09 12:40:14 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-09 12:40:14 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-09-09 12:40:14 -0700
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-09 12:40:14 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/header-bg.png" for 127.0.0.1 at 2012-09-09 12:40:14 -0700
+Served asset /header-bg.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-09 12:40:59 -0700
+Processing by PagesController#index as HTML
+MONGODB (0ms) test['pages'].find({})
+  Rendered pages/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 16ms (Views: 15.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-09 12:40:59 -0700
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-09-09 12:40:59 -0700
+Served asset /pages.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2012-09-09 12:40:59 -0700
+Served asset /application.css - 304 Not Modified (10ms)
+Served asset /_normalize.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-09 12:40:59 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-09 12:40:59 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+Served asset /scaffolds.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-09 12:40:59 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-09-09 12:40:59 -0700
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-09 12:40:59 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-09 12:41:40 -0700
+Processing by PagesController#index as HTML
+MONGODB (0ms) test['pages'].find({})
+  Rendered pages/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 16ms (Views: 16.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-09 12:41:40 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-09 12:41:40 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2012-09-09 12:41:40 -0700
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-09-09 12:41:40 -0700
+Served asset /pages.css - 304 Not Modified (0ms)
+Served asset /_normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-09 12:41:41 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-09 12:41:41 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-09 12:41:41 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-09-09 12:41:41 -0700
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-09 12:51:50 -0700
+Processing by PagesController#index as HTML
+MONGODB (0ms) test['pages'].find({})
+  Rendered pages/index.html.erb within layouts/application (47.3ms)
+Completed 200 OK in 62ms (Views: 61.6ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-09 12:51:50 -0700
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-09-09 12:51:50 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2012-09-09 12:51:50 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-09 12:51:50 -0700
+Served asset /_normalize.css - 304 Not Modified (0ms)
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-09 12:51:50 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-09 12:51:50 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-09 12:51:50 -0700
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-09-09 12:51:50 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-09-09 12:51:50 -0700
+Served asset /logo.png - 200 OK (17ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-09 12:54:48 -0700
+Processing by PagesController#index as HTML
+MONGODB (0ms) test['pages'].find({})
+  Rendered pages/index.html.erb within layouts/application (3.9ms)
+Completed 500 Internal Server Error in 50ms
+
+ActionView::Template::Error (Inconsistent indentation: 1 space was used for indentation, but the rest of the document was indented using 2 spaces.
+  (in /Users/rigelstpierre/Dropbox/Everything/Rigel St. Pierre/rigelstpierre/app/assets/stylesheets/application.sass)):
+    2: <html>
+    3: <head>
+    4:   <title>Rigel St. Pierre | Developer</title>
+    5:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    6:   <%= javascript_include_tag "application" %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/application.sass:23
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__2763848553026583172_70195025003900'
+  app/controllers/pages_controller.rb:7:in `index'
+
+
+  Rendered /Users/rigelstpierre/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.6ms)
+  Rendered /Users/rigelstpierre/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.2ms)
+  Rendered /Users/rigelstpierre/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (27.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-09 12:54:59 -0700
+Processing by PagesController#index as HTML
+MONGODB (0ms) test['pages'].find({})
+  Rendered pages/index.html.erb within layouts/application (4.3ms)
+Completed 500 Internal Server Error in 26ms
+
+ActionView::Template::Error (Inconsistent indentation: 1 space was used for indentation, but the rest of the document was indented using 2 spaces.
+  (in /Users/rigelstpierre/Dropbox/Everything/Rigel St. Pierre/rigelstpierre/app/assets/stylesheets/application.sass)):
+    2: <html>
+    3: <head>
+    4:   <title>Rigel St. Pierre | Developer</title>
+    5:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    6:   <%= javascript_include_tag "application" %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/application.sass:23
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__2763848553026583172_70195025003900'
+  app/controllers/pages_controller.rb:7:in `index'
+
+
+  Rendered /Users/rigelstpierre/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.1ms)
+  Rendered /Users/rigelstpierre/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered /Users/rigelstpierre/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (18.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-09 12:55:00 -0700
+Processing by PagesController#index as HTML
+MONGODB (0ms) test['pages'].find({})
+  Rendered pages/index.html.erb within layouts/application (3.5ms)
+Completed 500 Internal Server Error in 23ms
+
+ActionView::Template::Error (Inconsistent indentation: 1 space was used for indentation, but the rest of the document was indented using 2 spaces.
+  (in /Users/rigelstpierre/Dropbox/Everything/Rigel St. Pierre/rigelstpierre/app/assets/stylesheets/application.sass)):
+    2: <html>
+    3: <head>
+    4:   <title>Rigel St. Pierre | Developer</title>
+    5:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    6:   <%= javascript_include_tag "application" %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/application.sass:23
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__2763848553026583172_70195025003900'
+  app/controllers/pages_controller.rb:7:in `index'
+
+
+  Rendered /Users/rigelstpierre/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.4ms)
+  Rendered /Users/rigelstpierre/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
+  Rendered /Users/rigelstpierre/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (16.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-09 12:55:04 -0700
+Processing by PagesController#index as HTML
+MONGODB (0ms) test['pages'].find({})
+  Rendered pages/index.html.erb within layouts/application (4.4ms)
+Completed 500 Internal Server Error in 31ms
+
+ActionView::Template::Error (Inconsistent indentation: 1 space was used for indentation, but the rest of the document was indented using 2 spaces.
+  (in /Users/rigelstpierre/Dropbox/Everything/Rigel St. Pierre/rigelstpierre/app/assets/stylesheets/application.sass)):
+    2: <html>
+    3: <head>
+    4:   <title>Rigel St. Pierre | Developer</title>
+    5:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    6:   <%= javascript_include_tag "application" %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/application.sass:23
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__2763848553026583172_70195025003900'
+  app/controllers/pages_controller.rb:7:in `index'
+
+
+  Rendered /Users/rigelstpierre/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered /Users/rigelstpierre/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered /Users/rigelstpierre/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (19.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-09 12:55:05 -0700
+Processing by PagesController#index as HTML
+MONGODB (0ms) test['pages'].find({})
+  Rendered pages/index.html.erb within layouts/application (3.8ms)
+Completed 500 Internal Server Error in 26ms
+
+ActionView::Template::Error (Inconsistent indentation: 1 space was used for indentation, but the rest of the document was indented using 2 spaces.
+  (in /Users/rigelstpierre/Dropbox/Everything/Rigel St. Pierre/rigelstpierre/app/assets/stylesheets/application.sass)):
+    2: <html>
+    3: <head>
+    4:   <title>Rigel St. Pierre | Developer</title>
+    5:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    6:   <%= javascript_include_tag "application" %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/application.sass:23
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__2763848553026583172_70195025003900'
+  app/controllers/pages_controller.rb:7:in `index'
+
+
+  Rendered /Users/rigelstpierre/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered /Users/rigelstpierre/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.9ms)
+  Rendered /Users/rigelstpierre/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (17.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-09 12:55:29 -0700
+Processing by PagesController#index as HTML
+MONGODB (0ms) test['pages'].find({})
+  Rendered pages/index.html.erb within layouts/application (3.2ms)
+Compiled application.css  (84ms)  (pid 89921)
+Completed 200 OK in 246ms (Views: 245.6ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-09-09 12:55:30 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-09 12:55:30 -0700
+Served asset /pages.css - 304 Not Modified (0ms)
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-09 12:55:30 -0700
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2012-09-09 12:55:30 -0700
+Served asset /_normalize.css - 304 Not Modified (0ms)
+Served asset /application.css - 200 OK (10ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-09 12:55:30 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-09 12:55:30 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-09 12:55:30 -0700
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-09-09 12:55:30 -0700
+Served asset /pages.js - 304 Not Modified (0ms)
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/header-bg.png" for 127.0.0.1 at 2012-09-09 12:55:30 -0700
+Served asset /header-bg.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-09-09 12:55:30 -0700
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-09 12:55:57 -0700
+Processing by PagesController#index as HTML
+MONGODB (0ms) test['pages'].find({})
+  Rendered pages/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 23ms (Views: 22.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-09 12:55:57 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-09 12:55:57 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-09-09 12:55:57 -0700
+Served asset /pages.css - 304 Not Modified (0ms)
+Served asset /application.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-09 12:55:57 -0700
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2012-09-09 12:55:57 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+Served asset /_normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-09 12:55:57 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-09-09 12:55:57 -0700
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-09 12:55:57 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-09-09 12:55:57 -0700
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-09 12:56:21 -0700
+Processing by PagesController#index as HTML
+MONGODB (0ms) test['pages'].find({})
+  Rendered pages/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 17ms (Views: 16.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-09 12:56:21 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-09 12:56:21 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2012-09-09 12:56:21 -0700
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-09-09 12:56:21 -0700
+Served asset /_normalize.css - 304 Not Modified (0ms)
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-09 12:56:21 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-09 12:56:21 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-09 12:56:21 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-09-09 12:56:21 -0700
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-09-09 12:56:21 -0700
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-09 13:02:57 -0700
+Processing by PagesController#index as HTML
+MONGODB (1ms) test['pages'].find({})
+  Rendered pages/index.html.erb within layouts/application (6.0ms)
+Compiled application.css  (271ms)  (pid 89921)
+Completed 200 OK in 342ms (Views: 341.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-09 13:02:58 -0700
+Served asset /application.css - 200 OK (42ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-09 13:02:58 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-09 13:02:58 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-09-09 13:02:58 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-09 13:02:58 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2012-09-09 13:02:58 -0700
+Served asset /_normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-09 13:02:58 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-09-09 13:02:58 -0700
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/header-bg.png" for 127.0.0.1 at 2012-09-09 13:02:58 -0700
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-09-09 13:02:58 -0700
+Served asset /logo.png - 304 Not Modified (0ms)
+Served asset /header-bg.png - 304 Not Modified (3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-09 13:07:50 -0700
+Processing by PagesController#index as HTML
+MONGODB (0ms) test['pages'].find({})
+  Rendered pages/index.html.erb within layouts/application (4.5ms)
+Completed 500 Internal Server Error in 48ms
+
+ActionView::Template::Error (Inconsistent indentation: 7 spaces were used for indentation, but the rest of the document was indented using 2 spaces.
+  (in /Users/rigelstpierre/Dropbox/Everything/Rigel St. Pierre/rigelstpierre/app/assets/stylesheets/application.sass)):
+    2: <html>
+    3: <head>
+    4:   <title>Rigel St. Pierre | Developer</title>
+    5:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    6:   <%= javascript_include_tag "application" %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/application.sass:20
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__2763848553026583172_70195055286260'
+  app/controllers/pages_controller.rb:7:in `index'
+
+
+  Rendered /Users/rigelstpierre/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.3ms)
+  Rendered /Users/rigelstpierre/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.5ms)
+  Rendered /Users/rigelstpierre/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (25.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-09 13:08:18 -0700
+Processing by PagesController#index as HTML
+MONGODB (0ms) test['pages'].find({})
+  Rendered pages/index.html.erb within layouts/application (6.8ms)
+Completed 500 Internal Server Error in 52ms
+
+ActionView::Template::Error (Invalid CSS after "25px": expected expression (e.g. 1px, bold), was ";"
+  (in /Users/rigelstpierre/Dropbox/Everything/Rigel St. Pierre/rigelstpierre/app/assets/stylesheets/application.sass)):
+    2: <html>
+    3: <head>
+    4:   <title>Rigel St. Pierre | Developer</title>
+    5:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    6:   <%= javascript_include_tag "application" %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/application.sass:25
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__2763848553026583172_70195055286260'
+  app/controllers/pages_controller.rb:7:in `index'
+
+
+  Rendered /Users/rigelstpierre/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.9ms)
+  Rendered /Users/rigelstpierre/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.2ms)
+  Rendered /Users/rigelstpierre/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (21.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-09 13:08:26 -0700
+Processing by PagesController#index as HTML
+MONGODB (0ms) test['pages'].find({})
+  Rendered pages/index.html.erb within layouts/application (5.1ms)
+Compiled application.css  (153ms)  (pid 89921)
+Completed 200 OK in 210ms (Views: 209.2ms)
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2012-09-09 13:08:26 -0700
+Served asset /_normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-09 13:08:26 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-09 13:08:26 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+Served asset /application.css - 200 OK (10ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-09 13:08:26 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-09-09 13:08:26 -0700
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-09-09 13:08:26 -0700
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-09 13:08:26 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-09 13:08:26 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-09-09 13:08:27 -0700
+
+
+Started GET "/assets/assets/flama-black-webfont.woff" for 127.0.0.1 at 2012-09-09 13:08:27 -0700
+Served asset /logo.png - 304 Not Modified (3ms)
+Served asset /assets/flama-black-webfont.woff - 404 Not Found (80ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/assets/flama-black-webfont.woff"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  railties (3.2.8) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:147:in `handle'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:99:in `rescue in block (2 levels) in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:96:in `block (2 levels) in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `each'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `block in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `loop'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:13:in `run'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/bin/nack_worker:4:in `<main>'
+
+
+  Rendered /Users/rigelstpierre/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/assets/header-bg.png" for 127.0.0.1 at 2012-09-09 13:08:27 -0700
+Served asset /header-bg.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assets/flama-black-webfont.ttf" for 127.0.0.1 at 2012-09-09 13:08:27 -0700
+Served asset /assets/flama-black-webfont.ttf - 404 Not Found (10ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/assets/flama-black-webfont.ttf"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  railties (3.2.8) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:147:in `handle'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:99:in `rescue in block (2 levels) in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:96:in `block (2 levels) in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `each'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `block in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `loop'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:13:in `run'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/bin/nack_worker:4:in `<main>'
+
+
+  Rendered /Users/rigelstpierre/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/assets/assets/flama-black-webfont.svg" for 127.0.0.1 at 2012-09-09 13:08:27 -0700
+Served asset /assets/flama-black-webfont.svg - 404 Not Found (9ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/assets/flama-black-webfont.svg"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  railties (3.2.8) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:147:in `handle'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:99:in `rescue in block (2 levels) in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:96:in `block (2 levels) in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `each'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `block in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `loop'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:13:in `run'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/bin/nack_worker:4:in `<main>'
+
+
+  Rendered /Users/rigelstpierre/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-09 13:08:56 -0700
+Processing by PagesController#index as HTML
+MONGODB (0ms) test['pages'].find({})
+  Rendered pages/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 17ms (Views: 16.6ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-09-09 13:08:56 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-09 13:08:56 -0700
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2012-09-09 13:08:56 -0700
+Served asset /_normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-09 13:08:56 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+Served asset /application.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-09 13:08:56 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-09 13:08:56 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-09-09 13:08:56 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-09 13:08:56 -0700
+Served asset /pages.js - 304 Not Modified (0ms)
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-09-09 13:08:56 -0700
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flama-black-webfont.woff" for 127.0.0.1 at 2012-09-09 13:09:53 -0700
+Served asset /flama-black-webfont.woff - 404 Not Found (72ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/flama-black-webfont.woff"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  railties (3.2.8) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:147:in `handle'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:99:in `rescue in block (2 levels) in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:96:in `block (2 levels) in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `each'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `block in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `loop'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:13:in `run'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/bin/nack_worker:4:in `<main>'
+
+
+  Rendered /Users/rigelstpierre/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/assets/fonts/flama-black-webfont.woff" for 127.0.0.1 at 2012-09-09 13:10:05 -0700
+Served asset /fonts/flama-black-webfont.woff - 404 Not Found (7ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/fonts/flama-black-webfont.woff"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  railties (3.2.8) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:147:in `handle'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:99:in `rescue in block (2 levels) in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:96:in `block (2 levels) in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `each'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `block in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `loop'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:13:in `run'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/bin/nack_worker:4:in `<main>'
+
+
+  Rendered /Users/rigelstpierre/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/assets/long.png" for 127.0.0.1 at 2012-09-09 13:10:16 -0700
+Served asset /long.png - 404 Not Found (9ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/long.png"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  railties (3.2.8) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:147:in `handle'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:99:in `rescue in block (2 levels) in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:96:in `block (2 levels) in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `each'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `block in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `loop'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:13:in `run'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/bin/nack_worker:4:in `<main>'
+
+
+  Rendered /Users/rigelstpierre/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/assets/images/long.png" for 127.0.0.1 at 2012-09-09 13:10:23 -0700
+Served asset /images/long.png - 404 Not Found (7ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/long.png"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  railties (3.2.8) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:147:in `handle'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:99:in `rescue in block (2 levels) in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:96:in `block (2 levels) in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `each'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `block in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `loop'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:13:in `run'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/bin/nack_worker:4:in `<main>'
+
+
+  Rendered /Users/rigelstpierre/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/images/long.png" for 127.0.0.1 at 2012-09-09 13:10:27 -0700
+
+ActionController::RoutingError (No route matches [GET] "/images/long.png"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  railties (3.2.8) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:147:in `handle'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:99:in `rescue in block (2 levels) in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:96:in `block (2 levels) in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `each'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `block in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `loop'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:13:in `run'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/bin/nack_worker:4:in `<main>'
+
+
+  Rendered /Users/rigelstpierre/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2012-09-09 13:10:35 -0700
+
+ActionController::RoutingError (No route matches [GET] "/images/logo.png"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  railties (3.2.8) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:147:in `handle'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:99:in `rescue in block (2 levels) in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:96:in `block (2 levels) in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `each'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `block in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `loop'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:13:in `run'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/bin/nack_worker:4:in `<main>'
+
+
+  Rendered /Users/rigelstpierre/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-09-09 13:10:38 -0700
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flama-black-webfont.eot" for 127.0.0.1 at 2012-09-09 13:10:51 -0700
+Served asset /flama-black-webfont.eot - 404 Not Found (6ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/flama-black-webfont.eot"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  railties (3.2.8) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:147:in `handle'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:99:in `rescue in block (2 levels) in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:96:in `block (2 levels) in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `each'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `block in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `loop'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:13:in `run'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/bin/nack_worker:4:in `<main>'
+
+
+  Rendered /Users/rigelstpierre/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-09 13:11:35 -0700
+Processing by PagesController#index as HTML
+MONGODB (0ms) test['pages'].find({})
+  Rendered pages/index.html.erb within layouts/application (4.5ms)
+Compiled application.css  (288ms)  (pid 89921)
+Completed 200 OK in 428ms (Views: 427.6ms)
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2012-09-09 13:11:36 -0700
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-09-09 13:11:36 -0700
+Served asset /_normalize.css - 304 Not Modified (0ms)
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-09 13:11:36 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-09 13:11:36 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-09 13:11:36 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+Served asset /application.css - 200 OK (32ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-09 13:11:36 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-09-09 13:11:36 -0700
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-09 13:11:36 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/header-bg.png" for 127.0.0.1 at 2012-09-09 13:11:36 -0700
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-09-09 13:11:36 -0700
+Served asset /header-bg.png - 304 Not Modified (0ms)
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-09 13:12:08 -0700
+Processing by PagesController#index as HTML
+MONGODB (0ms) test['pages'].find({})
+  Rendered pages/index.html.erb within layouts/application (3.9ms)
+Compiled application.css  (123ms)  (pid 89921)
+Completed 200 OK in 232ms (Views: 231.4ms)
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2012-09-09 13:12:08 -0700
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-09-09 13:12:08 -0700
+Served asset /_normalize.css - 304 Not Modified (0ms)
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-09 13:12:08 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-09 13:12:08 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-09 13:12:08 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+Served asset /application.css - 200 OK (11ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-09 13:12:08 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-09-09 13:12:08 -0700
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-09 13:12:08 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/header-bg.png" for 127.0.0.1 at 2012-09-09 13:12:08 -0700
+Served asset /header-bg.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assets/flama-black-webfont.woff" for 127.0.0.1 at 2012-09-09 13:12:09 -0700
+Served asset /assets/flama-black-webfont.woff - 404 Not Found (10ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/assets/flama-black-webfont.woff"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  railties (3.2.8) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:147:in `handle'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:99:in `rescue in block (2 levels) in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:96:in `block (2 levels) in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `each'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `block in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `loop'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:13:in `run'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/bin/nack_worker:4:in `<main>'
+
+
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-09-09 13:12:09 -0700
+Served asset /logo.png - 304 Not Modified (0ms)
+  Rendered /Users/rigelstpierre/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/assets/assets/flama-black-webfont.ttf" for 127.0.0.1 at 2012-09-09 13:12:09 -0700
+Served asset /assets/flama-black-webfont.ttf - 404 Not Found (7ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/assets/flama-black-webfont.ttf"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  railties (3.2.8) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:147:in `handle'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:99:in `rescue in block (2 levels) in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:96:in `block (2 levels) in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `each'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `block in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `loop'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:13:in `run'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/bin/nack_worker:4:in `<main>'
+
+
+  Rendered /Users/rigelstpierre/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/assets/assets/flama-black-webfont.svg" for 127.0.0.1 at 2012-09-09 13:12:09 -0700
+Served asset /assets/flama-black-webfont.svg - 404 Not Found (9ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/assets/flama-black-webfont.svg"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  railties (3.2.8) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:147:in `handle'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:99:in `rescue in block (2 levels) in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:96:in `block (2 levels) in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `each'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `block in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `loop'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:13:in `run'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/bin/nack_worker:4:in `<main>'
+
+
+  Rendered /Users/rigelstpierre/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-09 13:12:42 -0700
+Processing by PagesController#index as HTML
+MONGODB (7ms) test['pages'].find({})
+  Rendered pages/index.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 25ms (Views: 24.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-09 13:12:42 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-09 13:12:42 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-09 13:12:42 -0700
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-09-09 13:12:42 -0700
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2012-09-09 13:12:42 -0700
+Served asset /_normalize.css - 304 Not Modified (0ms)
+Served asset /application.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-09 13:12:42 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-09-09 13:12:42 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-09 13:12:42 -0700
+Served asset /pages.js - 304 Not Modified (0ms)
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-09-09 13:12:42 -0700
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-09 13:12:53 -0700
+Processing by PagesController#index as HTML
+MONGODB (0ms) test['pages'].find({})
+  Rendered pages/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 17ms (Views: 16.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-09 13:12:53 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2012-09-09 13:12:53 -0700
+Served asset /_normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-09 13:12:53 -0700
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-09-09 13:12:53 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-09 13:12:53 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-09 13:12:54 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-09 13:12:54 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-09-09 13:12:54 -0700
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-09-09 13:12:54 -0700
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-09 13:13:09 -0700
+Processing by PagesController#index as HTML
+MONGODB (0ms) test['pages'].find({})
+  Rendered pages/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 17ms (Views: 16.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-09 13:13:09 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-09 13:13:09 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-09-09 13:13:09 -0700
+Served asset /pages.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-09 13:13:09 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2012-09-09 13:13:09 -0700
+Served asset /_normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-09 13:13:09 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-09-09 13:13:09 -0700
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-09 13:13:09 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-09-09 13:13:09 -0700
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-09 13:13:23 -0700
+Processing by PagesController#index as HTML
+MONGODB (0ms) test['pages'].find({})
+  Rendered pages/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 16ms (Views: 15.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-09 13:13:23 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-09 13:13:23 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2012-09-09 13:13:23 -0700
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-09-09 13:13:23 -0700
+Served asset /_normalize.css - 304 Not Modified (0ms)
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-09 13:13:23 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-09 13:13:23 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-09 13:13:23 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-09-09 13:13:23 -0700
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-09-09 13:13:23 -0700
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-09 13:13:43 -0700
+Processing by PagesController#index as HTML
+MONGODB (0ms) test['pages'].find({})
+  Rendered pages/index.html.erb within layouts/application (46.8ms)
+Compiled application.css  (152ms)  (pid 89921)
+Completed 200 OK in 229ms (Views: 228.8ms)
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2012-09-09 13:13:43 -0700
+Served asset /_normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-09 13:13:43 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-09 13:13:43 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-09-09 13:13:43 -0700
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-09-09 13:13:43 -0700
+Served asset /pages.js - 304 Not Modified (0ms)
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-09 13:13:43 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-09 13:13:43 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+Served asset /application.css - 200 OK (22ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-09 13:13:43 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/header-bg.png" for 127.0.0.1 at 2012-09-09 13:13:43 -0700
+Served asset /header-bg.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-09-09 13:13:43 -0700
+
+
+Started GET "/assets/assets/flama-black-webfont.woff" for 127.0.0.1 at 2012-09-09 13:13:43 -0700
+Served asset /logo.png - 304 Not Modified (0ms)
+Served asset /assets/flama-black-webfont.woff - 404 Not Found (8ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/assets/flama-black-webfont.woff"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  railties (3.2.8) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:147:in `handle'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:99:in `rescue in block (2 levels) in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:96:in `block (2 levels) in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `each'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `block in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `loop'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:13:in `run'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/bin/nack_worker:4:in `<main>'
+
+
+  Rendered /Users/rigelstpierre/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/assets/assets/flama-black-webfont.ttf" for 127.0.0.1 at 2012-09-09 13:13:43 -0700
+Served asset /assets/flama-black-webfont.ttf - 404 Not Found (9ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/assets/flama-black-webfont.ttf"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  railties (3.2.8) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:147:in `handle'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:99:in `rescue in block (2 levels) in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:96:in `block (2 levels) in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `each'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `block in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `loop'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:13:in `run'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/bin/nack_worker:4:in `<main>'
+
+
+  Rendered /Users/rigelstpierre/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/assets/assets/flama-black-webfont.svg" for 127.0.0.1 at 2012-09-09 13:13:43 -0700
+Served asset /assets/flama-black-webfont.svg - 404 Not Found (7ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/assets/flama-black-webfont.svg"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  railties (3.2.8) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:147:in `handle'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:99:in `rescue in block (2 levels) in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:96:in `block (2 levels) in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `each'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `block in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `loop'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:13:in `run'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/bin/nack_worker:4:in `<main>'
+
+
+  Rendered /Users/rigelstpierre/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-09 13:13:51 -0700
+Processing by PagesController#index as HTML
+MONGODB (1ms) test['pages'].find({})
+  Rendered pages/index.html.erb within layouts/application (5.0ms)
+Compiled application.css  (164ms)  (pid 89921)
+Completed 200 OK in 209ms (Views: 208.3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-09 13:13:52 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-09-09 13:13:52 -0700
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-09 13:13:52 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-09 13:13:52 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-09-09 13:13:52 -0700
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-09 13:13:52 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+Served asset /application.css - 200 OK (85ms)
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2012-09-09 13:13:52 -0700
+Served asset /_normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-09 13:13:52 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/header-bg.png" for 127.0.0.1 at 2012-09-09 13:13:52 -0700
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-09-09 13:13:52 -0700
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assets/flama-black-webfont.woff" for 127.0.0.1 at 2012-09-09 13:13:52 -0700
+Served asset /header-bg.png - 304 Not Modified (0ms)
+Served asset /assets/flama-black-webfont.woff - 404 Not Found (10ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/assets/flama-black-webfont.woff"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  railties (3.2.8) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:147:in `handle'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:99:in `rescue in block (2 levels) in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:96:in `block (2 levels) in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `each'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `block in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `loop'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:13:in `run'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/bin/nack_worker:4:in `<main>'
+
+
+  Rendered /Users/rigelstpierre/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (5.4ms)
+
+
+Started GET "/assets/assets/flama-black-webfont.ttf" for 127.0.0.1 at 2012-09-09 13:13:52 -0700
+Served asset /assets/flama-black-webfont.ttf - 404 Not Found (7ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/assets/flama-black-webfont.ttf"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  railties (3.2.8) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:147:in `handle'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:99:in `rescue in block (2 levels) in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:96:in `block (2 levels) in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `each'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `block in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `loop'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:13:in `run'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/bin/nack_worker:4:in `<main>'
+
+
+  Rendered /Users/rigelstpierre/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/assets/assets/flama-black-webfont.svg" for 127.0.0.1 at 2012-09-09 13:13:52 -0700
+Served asset /assets/flama-black-webfont.svg - 404 Not Found (11ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/assets/flama-black-webfont.svg"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  railties (3.2.8) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:147:in `handle'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:99:in `rescue in block (2 levels) in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:96:in `block (2 levels) in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `each'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `block in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `loop'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:13:in `run'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/bin/nack_worker:4:in `<main>'
+
+
+  Rendered /Users/rigelstpierre/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-09 13:14:38 -0700
+Processing by PagesController#index as HTML
+MONGODB (0ms) test['pages'].find({})
+  Rendered pages/index.html.erb within layouts/application (3.6ms)
+Compiled application.css  (114ms)  (pid 89921)
+Completed 200 OK in 156ms (Views: 155.4ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-09-09 13:14:38 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-09 13:14:38 -0700
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-09 13:14:38 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2012-09-09 13:14:38 -0700
+Served asset /_normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-09 13:14:38 -0700
+Served asset /application.css - 200 OK (24ms)
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-09 13:14:38 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-09 13:14:38 -0700
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-09-09 13:14:38 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/header-bg.png" for 127.0.0.1 at 2012-09-09 13:14:39 -0700
+Served asset /header-bg.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-09-09 13:14:39 -0700
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assets/flama-black-webfont.woff" for 127.0.0.1 at 2012-09-09 13:14:39 -0700
+Served asset /assets/flama-black-webfont.woff - 404 Not Found (8ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/assets/flama-black-webfont.woff"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  railties (3.2.8) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:147:in `handle'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:99:in `rescue in block (2 levels) in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:96:in `block (2 levels) in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `each'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `block in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `loop'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:13:in `run'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/bin/nack_worker:4:in `<main>'
+
+
+  Rendered /Users/rigelstpierre/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/assets/assets/flama-black-webfont.ttf" for 127.0.0.1 at 2012-09-09 13:14:39 -0700
+Served asset /assets/flama-black-webfont.ttf - 404 Not Found (8ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/assets/flama-black-webfont.ttf"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  railties (3.2.8) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:147:in `handle'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:99:in `rescue in block (2 levels) in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:96:in `block (2 levels) in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `each'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `block in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `loop'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:13:in `run'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/bin/nack_worker:4:in `<main>'
+
+
+  Rendered /Users/rigelstpierre/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/assets/assets/flama-black-webfont.svg" for 127.0.0.1 at 2012-09-09 13:14:39 -0700
+Served asset /assets/flama-black-webfont.svg - 404 Not Found (8ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/assets/flama-black-webfont.svg"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  railties (3.2.8) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:147:in `handle'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:99:in `rescue in block (2 levels) in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:96:in `block (2 levels) in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `each'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `block in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `loop'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:13:in `run'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/bin/nack_worker:4:in `<main>'
+
+
+  Rendered /Users/rigelstpierre/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-09 13:14:40 -0700
+Processing by PagesController#index as HTML
+MONGODB (0ms) test['pages'].find({})
+  Rendered pages/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 12ms (Views: 11.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-09 13:14:40 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-09 13:14:40 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-09-09 13:14:40 -0700
+Served asset /pages.css - 304 Not Modified (0ms)
+Served asset /application.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-09 13:14:40 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2012-09-09 13:14:40 -0700
+Served asset /_normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-09 13:14:40 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-09-09 13:14:40 -0700
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-09 13:14:40 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-09-09 13:14:40 -0700
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-09 13:14:44 -0700
+Processing by PagesController#index as HTML
+MONGODB (0ms) test['pages'].find({})
+  Rendered pages/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 15ms (Views: 14.8ms)
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2012-09-09 13:14:44 -0700
+Served asset /_normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-09-09 13:14:44 -0700
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-09 13:14:44 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-09 13:14:44 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-09 13:14:44 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-09-09 13:14:44 -0700
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-09 13:14:44 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-09 13:14:44 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-09-09 13:14:44 -0700
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-09 13:15:12 -0700
+Processing by PagesController#index as HTML
+MONGODB (0ms) test['pages'].find({})
+  Rendered pages/index.html.erb within layouts/application (2.2ms)
+Compiled application.css  (83ms)  (pid 89921)
+Completed 200 OK in 171ms (Views: 171.0ms)
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2012-09-09 13:15:12 -0700
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-09-09 13:15:12 -0700
+Served asset /_normalize.css - 304 Not Modified (0ms)
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-09 13:15:12 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-09 13:15:12 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-09-09 13:15:12 -0700
+Served asset /application.css - 304 Not Modified (15ms)
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-09 13:15:12 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-09 13:15:12 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-09-09 13:15:12 -0700
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2012-09-09 13:15:30 -0700
+
+ActionController::RoutingError (No route matches [GET] "/about"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  railties (3.2.8) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:147:in `handle'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:99:in `rescue in block (2 levels) in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:96:in `block (2 levels) in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `each'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `block in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `loop'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:13:in `run'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/bin/nack_worker:4:in `<main>'
+
+
+  Rendered /Users/rigelstpierre/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/pages/about" for 127.0.0.1 at 2012-09-09 13:15:35 -0700
+Processing by PagesController#show as HTML
+  Parameters: {"id"=>"about"}
+MONGODB (1ms) test['pages'].find({:slug=>"about"}).limit(-1).sort([[:_id, :asc]])
+  Rendered pages/show.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 16ms (Views: 13.1ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-09-09 13:15:35 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-09 13:15:35 -0700
+Served asset /pages.css - 304 Not Modified (0ms)
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-09 13:15:35 -0700
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2012-09-09 13:15:35 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+Served asset /_normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-09 13:15:35 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-09-09 13:15:35 -0700
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-09 13:15:35 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-09-09 13:15:35 -0700
+Served asset /logo.png - 304 Not Modified (0ms)

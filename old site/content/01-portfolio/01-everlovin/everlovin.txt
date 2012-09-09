@@ -1,0 +1,6 @@
+Client: Everlovin' Press
+----
+WorkType: HTML/CSS, Wordpress, Javascript
+----
+Text: Amazingly well designed site by friend Tom Frose, for Everlovin' Press out of Ontario. Each page is a different layout/design and made a really different development cycle for.
+----

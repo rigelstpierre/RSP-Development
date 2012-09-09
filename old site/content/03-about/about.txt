@@ -1,0 +1,15 @@
+Title: Profile
+----
+Subtitle: about
+----
+PageTitle: I'M RIGEL AND I WRITE CODE
+----
+Text: Hailing from the great western province of British Columbia, Canada, Rigel writes code. Specializing in Javascript, and HTML5/CSS3, he works hard to make things that everyone can enjoy using. From Wordpress content management systems to customized interactive web applications, every line of code is lovingly hand crafted. His clients include The Phuse, Domain7, ICON Worldwide, Shane and Peter, and BNOTIONS. In his spare time, Rigel likes to produce music, ingest coffee, and ride his fixed gear bike on the flats of Kelowna.
+
+Using Photoshop and Sublime Text 2 to create pixel perfect website, while listening to jams in iTunes or Rdio. To keep every project backed up and controlled, git and github are used. Hosting is provided by the super fine folks at Media Temple.
+
+Credit Where Credit Is Due:
+Site Design and Branding: Mitch Bartlett
+Copy Writing: Matt Herron
+Photography: Rhys Albrecht
+CMS: Kirby CMS

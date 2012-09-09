@@ -1,0 +1,9 @@
+Title: Rigel St. Pierre | Developer 
+----
+Author: Rigel St. Pierre
+----
+Description: Rigel St. Pierre is a developer from Kelowna.
+----
+Keywords: rigel, stpierre, developer, kelowna, bc, wordpress, canada, cms, php, ruby, javascript, okdg, 
+----
+Copyright: Copyright Rigel St. Pierre 2010 - (date: Year). All rights reserved
