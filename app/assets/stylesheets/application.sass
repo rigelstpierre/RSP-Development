@@ -12,19 +12,18 @@
  *= require_tree .
  */
 
+@import normalize
+
 @font-face
   font-family: 'flama_blackregular'
-  src: url('assets/flama-black-webfont.eot')
-  src: url('assets/flama-black-webfont.eot?#iefix') format('embedded-opentype'), url('assets/flama-black-webfont.woff') format('woff'), url('assets/flama-black-webfont.ttf') format('truetype'), url('assets/flama-black-webfont.svg#flama_blackregular') format('svg')
+  src: url('/assets/flama-black-webfont.eot')
+  src: url('/assets/flama-black-webfont.eot?#iefix') format('embedded-opentype'), url('/assets/flama-black-webfont.woff') format('woff'), url('/assets/flama-black-webfont.ttf') format('truetype'), url('/assets/flama-black-webfont.svg#flama_blackregular') format('svg')
   font-weight: normal
   font-style: normal
 
-h1
-  font-family: 'flama_blackregular'
-  font-size: 18px
-  color: #fff
 
-@import normalize
+body
+  background: image-url("bg.jpg") repeat
 
 .container
   width: 940px
@@ -38,6 +37,12 @@ header
     margin: 25px 0 0 0
     float: left
   h1
+    font-family: 'flama_blackregular'
+    font-size: 18px
+    color: #fff
     float: left
     text-transform: uppercase
-    line-height: 25px
+    -webkit-text-shadow: 0 1px 0 3px rgba(0,0,0,0.2)
+    -moz-text-shadow: 0 1px 0 3px rgba(0,0,0,0.2)
+    text-shadow: 0 1px 0 3px rgba(0,0,0,0.2)
+    margin: 45px 0 0 35px

@@ -2274,3 +2274,1359 @@ Served asset /application.js - 304 Not Modified (0ms)
 
 Started GET "/assets/logo.png" for 127.0.0.1 at 2012-09-09 13:15:35 -0700
 Served asset /logo.png - 304 Not Modified (0ms)
+MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+MONGODB (3ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-09 14:22:48 -0700
+Processing by PagesController#index as HTML
+MONGODB (134ms) test['system.namespaces'].find({})
+MONGODB (0ms) test['pages'].find({})
+  Rendered pages/index.html.erb within layouts/application (147.2ms)
+Completed 200 OK in 257ms (Views: 256.4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-09 14:22:49 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-09-09 14:22:49 -0700
+Served asset /pages.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-09 14:22:49 -0700
+Served asset /application.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-09 14:22:49 -0700
+Served asset /application.js - 304 Not Modified (11ms)
+MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+MONGODB (1ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-09 14:22:54 -0700
+Served asset /jquery.js - 304 Not Modified (31ms)
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2012-09-09 14:22:54 -0700
+Served asset /_normalize.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-09-09 14:22:54 -0700
+Served asset /pages.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/header-bg.png" for 127.0.0.1 at 2012-09-09 14:22:54 -0700
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-09-09 14:22:54 -0700
+Served asset /header-bg.png - 304 Not Modified (3ms)
+Served asset /logo.png - 304 Not Modified (5ms)
+
+
+Started GET "/assets/assets/flama-black-webfont.woff" for 127.0.0.1 at 2012-09-09 14:22:54 -0700
+Served asset /assets/flama-black-webfont.woff - 404 Not Found (8ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/assets/flama-black-webfont.woff"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  railties (3.2.8) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:147:in `handle'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:99:in `rescue in block (2 levels) in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:96:in `block (2 levels) in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `each'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `block in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `loop'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:13:in `run'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/bin/nack_worker:4:in `<main>'
+
+
+  Rendered /Users/rigelstpierre/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/assets/assets/flama-black-webfont.ttf" for 127.0.0.1 at 2012-09-09 14:22:54 -0700
+Served asset /assets/flama-black-webfont.ttf - 404 Not Found (8ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/assets/flama-black-webfont.ttf"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  railties (3.2.8) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:147:in `handle'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:99:in `rescue in block (2 levels) in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:96:in `block (2 levels) in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `each'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `block in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `loop'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:13:in `run'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/bin/nack_worker:4:in `<main>'
+
+
+  Rendered /Users/rigelstpierre/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/assets/assets/flama-black-webfont.svg" for 127.0.0.1 at 2012-09-09 14:22:54 -0700
+Served asset /assets/flama-black-webfont.svg - 404 Not Found (9ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/assets/flama-black-webfont.svg"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  railties (3.2.8) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:147:in `handle'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:99:in `rescue in block (2 levels) in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:96:in `block (2 levels) in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `each'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `block in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `loop'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:13:in `run'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/bin/nack_worker:4:in `<main>'
+
+
+  Rendered /Users/rigelstpierre/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2012-09-09 14:22:58 -0700
+Processing by PagesController#show as HTML
+  Parameters: {"id"=>"about"}
+MONGODB (5ms) test['pages'].find({:slug=>"about"}).limit(-1).sort([[:_id, :asc]])
+  Rendered pages/show.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 21ms (Views: 14.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-09 14:22:58 -0700
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-09-09 14:22:58 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-09 14:22:59 -0700
+Served asset /pages.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2012-09-09 14:22:59 -0700
+Served asset /jquery.js - 304 Not Modified (5ms)
+Served asset /_normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-09-09 14:22:59 -0700
+Served asset /pages.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-09 14:22:59 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-09 14:22:59 -0700
+Served asset /application.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-09-09 14:22:59 -0700
+Served asset /logo.png - 304 Not Modified (3ms)
+MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+MONGODB (0ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+MONGODB (0ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+MONGODB (0ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-09 15:11:46 -0700
+Processing by PagesController#index as HTML
+MONGODB (3ms) test['system.namespaces'].find({})
+MONGODB (0ms) test['pages'].find({})
+  Rendered pages/index.html.erb within layouts/application (19.2ms)
+Completed 500 Internal Server Error in 121ms
+
+ActionView::Template::Error (Invalid CSS after "...ded-opentype'),": expected expression (e.g. 1px, bold), was ""
+  (in /Users/rigelstpierre/Dropbox/Everything/Rigel St. Pierre/rigelstpierre/app/assets/stylesheets/application.sass)):
+    2: <html>
+    3: <head>
+    4:   <title>Rigel St. Pierre | Developer</title>
+    5:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    6:   <%= javascript_include_tag "application" %>
+    7:   <%= csrf_meta_tags %>
+    8:   <script type="text/javascript" src="//use.typekit.net/khd7dxx.js"></script>
+  app/assets/stylesheets/application.sass:19
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__3420100868066974682_70101736918840'
+  app/controllers/pages_controller.rb:7:in `index'
+
+
+  Rendered /Users/rigelstpierre/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.6ms)
+  Rendered /Users/rigelstpierre/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
+  Rendered /Users/rigelstpierre/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (25.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-09 15:11:57 -0700
+Processing by PagesController#index as HTML
+MONGODB (0ms) test['pages'].find({})
+  Rendered pages/index.html.erb within layouts/application (3.8ms)
+Completed 500 Internal Server Error in 27ms
+
+ActionView::Template::Error (Invalid CSS after "...ded-opentype'),": expected expression (e.g. 1px, bold), was ""
+  (in /Users/rigelstpierre/Dropbox/Everything/Rigel St. Pierre/rigelstpierre/app/assets/stylesheets/application.sass)):
+    2: <html>
+    3: <head>
+    4:   <title>Rigel St. Pierre | Developer</title>
+    5:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    6:   <%= javascript_include_tag "application" %>
+    7:   <%= csrf_meta_tags %>
+    8:   <script type="text/javascript" src="//use.typekit.net/khd7dxx.js"></script>
+  app/assets/stylesheets/application.sass:19
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__3420100868066974682_70101736918840'
+  app/controllers/pages_controller.rb:7:in `index'
+
+
+  Rendered /Users/rigelstpierre/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.1ms)
+  Rendered /Users/rigelstpierre/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered /Users/rigelstpierre/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (50.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-09 15:11:58 -0700
+Processing by PagesController#index as HTML
+MONGODB (0ms) test['pages'].find({})
+  Rendered pages/index.html.erb within layouts/application (4.0ms)
+Completed 500 Internal Server Error in 27ms
+
+ActionView::Template::Error (Invalid CSS after "...ded-opentype'),": expected expression (e.g. 1px, bold), was ""
+  (in /Users/rigelstpierre/Dropbox/Everything/Rigel St. Pierre/rigelstpierre/app/assets/stylesheets/application.sass)):
+    2: <html>
+    3: <head>
+    4:   <title>Rigel St. Pierre | Developer</title>
+    5:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    6:   <%= javascript_include_tag "application" %>
+    7:   <%= csrf_meta_tags %>
+    8:   <script type="text/javascript" src="//use.typekit.net/khd7dxx.js"></script>
+  app/assets/stylesheets/application.sass:19
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__3420100868066974682_70101736918840'
+  app/controllers/pages_controller.rb:7:in `index'
+
+
+  Rendered /Users/rigelstpierre/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/rigelstpierre/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/rigelstpierre/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-09 15:11:59 -0700
+Processing by PagesController#index as HTML
+MONGODB (0ms) test['pages'].find({})
+  Rendered pages/index.html.erb within layouts/application (4.3ms)
+Completed 500 Internal Server Error in 29ms
+
+ActionView::Template::Error (Invalid CSS after "...ded-opentype'),": expected expression (e.g. 1px, bold), was ""
+  (in /Users/rigelstpierre/Dropbox/Everything/Rigel St. Pierre/rigelstpierre/app/assets/stylesheets/application.sass)):
+    2: <html>
+    3: <head>
+    4:   <title>Rigel St. Pierre | Developer</title>
+    5:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    6:   <%= javascript_include_tag "application" %>
+    7:   <%= csrf_meta_tags %>
+    8:   <script type="text/javascript" src="//use.typekit.net/khd7dxx.js"></script>
+  app/assets/stylesheets/application.sass:19
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__3420100868066974682_70101736918840'
+  app/controllers/pages_controller.rb:7:in `index'
+
+
+  Rendered /Users/rigelstpierre/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.3ms)
+  Rendered /Users/rigelstpierre/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /Users/rigelstpierre/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-09 15:12:23 -0700
+Processing by PagesController#index as HTML
+MONGODB (0ms) test['pages'].find({})
+  Rendered pages/index.html.erb within layouts/application (3.4ms)
+Compiled portfolios.css  (6ms)  (pid 91764)
+Compiled application.css  (129ms)  (pid 91764)
+Compiled portfolios.js  (370ms)  (pid 91764)
+Compiled application.js  (399ms)  (pid 91764)
+Completed 200 OK in 921ms (Views: 920.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-09 15:12:24 -0700
+Served asset /application.css - 200 OK (12ms)
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2012-09-09 15:12:24 -0700
+Served asset /_normalize.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-09 15:12:24 -0700
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-09 15:12:24 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-09-09 15:12:24 -0700
+Served asset /pages.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-09 15:12:24 -0700
+Served asset /application.js - 304 Not Modified (19ms)
+MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+MONGODB (0ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+
+
+Started GET "/assets/portfolios.css?body=1" for 127.0.0.1 at 2012-09-09 15:12:29 -0700
+Served asset /portfolios.css - 200 OK (6ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-09-09 15:12:29 -0700
+Served asset /pages.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/portfolios.js?body=1" for 127.0.0.1 at 2012-09-09 15:12:29 -0700
+Served asset /portfolios.js - 200 OK (3ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-09-09 15:12:29 -0700
+
+
+Started GET "/assets/flama-black-webfont.woff" for 127.0.0.1 at 2012-09-09 15:12:29 -0700
+Served asset /logo.png - 304 Not Modified (3ms)
+Served asset /flama-black-webfont.woff - 200 OK (12ms)
+
+
+Started GET "/assets/header-bg.png" for 127.0.0.1 at 2012-09-09 15:12:29 -0700
+Served asset /header-bg.png - 304 Not Modified (4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-09 15:14:32 -0700
+Processing by PagesController#index as HTML
+MONGODB (0ms) test['pages'].find({})
+  Rendered pages/index.html.erb within layouts/application (4.9ms)
+Compiled application.css  (129ms)  (pid 91764)
+Completed 200 OK in 173ms (Views: 172.4ms)
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2012-09-09 15:14:33 -0700
+Served asset /_normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-09 15:14:33 -0700
+
+
+Started GET "/assets/portfolios.css?body=1" for 127.0.0.1 at 2012-09-09 15:14:33 -0700
+Served asset /portfolios.css - 304 Not Modified (5ms)
+Served asset /application.css - 200 OK (11ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-09 15:14:33 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-09-09 15:14:33 -0700
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-09 15:14:33 -0700
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-09 15:14:33 -0700
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-09-09 15:14:33 -0700
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/portfolios.js?body=1" for 127.0.0.1 at 2012-09-09 15:14:33 -0700
+Served asset /portfolios.js - 304 Not Modified (3ms)
+Served asset /application.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/header-bg.png" for 127.0.0.1 at 2012-09-09 15:14:33 -0700
+Served asset /header-bg.png - 304 Not Modified (3ms)
+
+
+Started GET "/assets/flama-black-webfont.woff" for 127.0.0.1 at 2012-09-09 15:14:33 -0700
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-09-09 15:14:33 -0700
+Served asset /logo.png - 304 Not Modified (2ms)
+Served asset /flama-black-webfont.woff - 304 Not Modified (7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-09 15:15:11 -0700
+Processing by PagesController#index as HTML
+MONGODB (0ms) test['pages'].find({})
+  Rendered pages/index.html.erb within layouts/application (3.9ms)
+Compiled application.css  (135ms)  (pid 91764)
+Completed 200 OK in 261ms (Views: 260.5ms)
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2012-09-09 15:15:11 -0700
+Served asset /_normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-09 15:15:11 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-09 15:15:11 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-09 15:15:11 -0700
+Served asset /application.css - 200 OK (17ms)
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/portfolios.css?body=1" for 127.0.0.1 at 2012-09-09 15:15:11 -0700
+Served asset /portfolios.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-09-09 15:15:11 -0700
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-09-09 15:15:11 -0700
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-09 15:15:11 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/portfolios.js?body=1" for 127.0.0.1 at 2012-09-09 15:15:11 -0700
+Served asset /portfolios.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/header-bg.png" for 127.0.0.1 at 2012-09-09 15:15:12 -0700
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-09-09 15:15:12 -0700
+Served asset /header-bg.png - 304 Not Modified (0ms)
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flama-black-webfont.woff" for 127.0.0.1 at 2012-09-09 15:15:12 -0700
+Served asset /flama-black-webfont.woff - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-09 15:15:13 -0700
+Processing by PagesController#index as HTML
+MONGODB (0ms) test['pages'].find({})
+  Rendered pages/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 21ms (Views: 20.5ms)
+
+
+Started GET "/assets/portfolios.css?body=1" for 127.0.0.1 at 2012-09-09 15:15:14 -0700
+Served asset /portfolios.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-09-09 15:15:14 -0700
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-09 15:15:14 -0700
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2012-09-09 15:15:14 -0700
+Served asset /_normalize.css - 304 Not Modified (3ms)
+Served asset /application.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-09 15:15:14 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-09 15:15:14 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-09-09 15:15:14 -0700
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/portfolios.js?body=1" for 127.0.0.1 at 2012-09-09 15:15:14 -0700
+Served asset /portfolios.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-09 15:15:14 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-09-09 15:15:14 -0700
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-09 15:15:26 -0700
+Processing by PagesController#index as HTML
+MONGODB (0ms) test['pages'].find({})
+  Rendered pages/index.html.erb within layouts/application (2.1ms)
+Compiled application.css  (135ms)  (pid 91764)
+Completed 200 OK in 179ms (Views: 178.8ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-09-09 15:15:26 -0700
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2012-09-09 15:15:26 -0700
+Served asset /pages.css - 304 Not Modified (0ms)
+Served asset /_normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-09 15:15:26 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-09 15:15:26 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-09 15:15:26 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (5ms)
+Served asset /application.css - 200 OK (16ms)
+
+
+Started GET "/assets/portfolios.css?body=1" for 127.0.0.1 at 2012-09-09 15:15:26 -0700
+Served asset /portfolios.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-09-09 15:15:26 -0700
+
+
+Started GET "/assets/portfolios.js?body=1" for 127.0.0.1 at 2012-09-09 15:15:26 -0700
+Served asset /portfolios.js - 304 Not Modified (0ms)
+Served asset /pages.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-09 15:15:26 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/header-bg.png" for 127.0.0.1 at 2012-09-09 15:15:26 -0700
+Served asset /header-bg.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flama-black-webfont.woff" for 127.0.0.1 at 2012-09-09 15:15:26 -0700
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-09-09 15:15:26 -0700
+Served asset /logo.png - 304 Not Modified (0ms)
+Served asset /flama-black-webfont.woff - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-09 15:15:27 -0700
+Processing by PagesController#index as HTML
+MONGODB (0ms) test['pages'].find({})
+  Rendered pages/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 12ms (Views: 11.8ms)
+
+
+Started GET "/assets/portfolios.css?body=1" for 127.0.0.1 at 2012-09-09 15:15:27 -0700
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-09-09 15:15:27 -0700
+Served asset /portfolios.css - 304 Not Modified (0ms)
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-09 15:15:27 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2012-09-09 15:15:27 -0700
+Served asset /_normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-09 15:15:27 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-09 15:15:27 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-09 15:15:27 -0700
+
+
+Started GET "/assets/portfolios.js?body=1" for 127.0.0.1 at 2012-09-09 15:15:27 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+Served asset /portfolios.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-09-09 15:15:27 -0700
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-09-09 15:15:28 -0700
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-09 15:15:33 -0700
+Processing by PagesController#index as HTML
+MONGODB (0ms) test['pages'].find({})
+  Rendered pages/index.html.erb within layouts/application (2.9ms)
+Compiled application.css  (167ms)  (pid 91764)
+Completed 200 OK in 203ms (Views: 203.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-09 15:15:33 -0700
+
+
+Started GET "/assets/portfolios.css?body=1" for 127.0.0.1 at 2012-09-09 15:15:33 -0700
+Served asset /portfolios.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-09 15:15:33 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+Served asset /application.css - 200 OK (16ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-09 15:15:33 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2012-09-09 15:15:33 -0700
+Served asset /_normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-09-09 15:15:33 -0700
+Served asset /pages.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-09-09 15:15:33 -0700
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/portfolios.js?body=1" for 127.0.0.1 at 2012-09-09 15:15:33 -0700
+Served asset /portfolios.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-09 15:15:33 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/header-bg.png" for 127.0.0.1 at 2012-09-09 15:15:33 -0700
+Served asset /header-bg.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-09-09 15:15:33 -0700
+
+
+Started GET "/assets/flama-black-webfont.woff" for 127.0.0.1 at 2012-09-09 15:15:33 -0700
+Served asset /flama-black-webfont.woff - 304 Not Modified (0ms)
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-09 15:15:34 -0700
+Processing by PagesController#index as HTML
+MONGODB (0ms) test['pages'].find({})
+  Rendered pages/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 14ms (Views: 14.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-09 15:15:34 -0700
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2012-09-09 15:15:34 -0700
+Served asset /_normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-09-09 15:15:34 -0700
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-09 15:15:34 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-09-09 15:15:34 -0700
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/portfolios.js?body=1" for 127.0.0.1 at 2012-09-09 15:15:34 -0700
+Served asset /portfolios.js - 304 Not Modified (0ms)
+Served asset /application.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/portfolios.css?body=1" for 127.0.0.1 at 2012-09-09 15:15:34 -0700
+Served asset /portfolios.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-09 15:15:34 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-09 15:15:34 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-09-09 15:15:34 -0700
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-09 15:15:39 -0700
+Processing by PagesController#index as HTML
+MONGODB (0ms) test['pages'].find({})
+  Rendered pages/index.html.erb within layouts/application (3.2ms)
+Compiled application.css  (108ms)  (pid 91764)
+Completed 200 OK in 151ms (Views: 150.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-09 15:15:39 -0700
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2012-09-09 15:15:39 -0700
+Served asset /_normalize.css - 304 Not Modified (0ms)
+Served asset /application.css - 200 OK (11ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-09-09 15:15:39 -0700
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-09 15:15:39 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/portfolios.js?body=1" for 127.0.0.1 at 2012-09-09 15:15:39 -0700
+
+
+Started GET "/assets/portfolios.css?body=1" for 127.0.0.1 at 2012-09-09 15:15:39 -0700
+Served asset /portfolios.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-09 15:15:39 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+Served asset /portfolios.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-09 15:15:39 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-09-09 15:15:39 -0700
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-09-09 15:15:39 -0700
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flama-black-webfont.woff" for 127.0.0.1 at 2012-09-09 15:15:39 -0700
+Served asset /flama-black-webfont.woff - 304 Not Modified (0ms)
+
+
+Started GET "/assets/header-bg.png" for 127.0.0.1 at 2012-09-09 15:15:39 -0700
+Served asset /header-bg.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-09 15:15:47 -0700
+Processing by PagesController#index as HTML
+MONGODB (0ms) test['pages'].find({})
+  Rendered pages/index.html.erb within layouts/application (2.7ms)
+Compiled application.css  (108ms)  (pid 91764)
+Completed 200 OK in 151ms (Views: 150.8ms)
+
+
+Started GET "/assets/portfolios.css?body=1" for 127.0.0.1 at 2012-09-09 15:15:47 -0700
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-09-09 15:15:47 -0700
+Served asset /portfolios.css - 304 Not Modified (0ms)
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2012-09-09 15:15:47 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-09 15:15:47 -0700
+Served asset /_normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-09 15:15:47 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-09-09 15:15:47 -0700
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/portfolios.js?body=1" for 127.0.0.1 at 2012-09-09 15:15:47 -0700
+Served asset /portfolios.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-09 15:15:47 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+Served asset /application.css - 200 OK (90ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-09 15:15:47 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/header-bg.png" for 127.0.0.1 at 2012-09-09 15:15:47 -0700
+Served asset /header-bg.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-09-09 15:15:47 -0700
+
+
+Started GET "/assets/flama-black-webfont.woff" for 127.0.0.1 at 2012-09-09 15:15:47 -0700
+Served asset /logo.png - 304 Not Modified (0ms)
+Served asset /flama-black-webfont.woff - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-09 15:15:52 -0700
+Processing by PagesController#index as HTML
+MONGODB (0ms) test['pages'].find({})
+  Rendered pages/index.html.erb within layouts/application (2.5ms)
+Compiled application.css  (106ms)  (pid 91764)
+Completed 200 OK in 146ms (Views: 145.5ms)
+
+
+Started GET "/assets/portfolios.css?body=1" for 127.0.0.1 at 2012-09-09 15:15:53 -0700
+Served asset /portfolios.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-09-09 15:15:53 -0700
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-09 15:15:53 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2012-09-09 15:15:53 -0700
+Served asset /_normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-09 15:15:53 -0700
+Served asset /application.css - 200 OK (13ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-09 15:15:53 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-09-09 15:15:53 -0700
+
+
+Started GET "/assets/portfolios.js?body=1" for 127.0.0.1 at 2012-09-09 15:15:53 -0700
+Served asset /portfolios.js - 304 Not Modified (0ms)
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-09 15:15:53 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/header-bg.png" for 127.0.0.1 at 2012-09-09 15:15:53 -0700
+
+
+Started GET "/assets/flama-black-webfont.woff" for 127.0.0.1 at 2012-09-09 15:15:53 -0700
+Served asset /header-bg.png - 304 Not Modified (0ms)
+Served asset /flama-black-webfont.woff - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-09-09 15:15:53 -0700
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-09 15:16:08 -0700
+Processing by PagesController#index as HTML
+MONGODB (0ms) test['pages'].find({})
+  Rendered pages/index.html.erb within layouts/application (3.1ms)
+Compiled application.css  (106ms)  (pid 91764)
+Completed 200 OK in 141ms (Views: 141.0ms)
+
+
+Started GET "/assets/portfolios.css?body=1" for 127.0.0.1 at 2012-09-09 15:16:09 -0700
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-09-09 15:16:09 -0700
+Served asset /portfolios.css - 304 Not Modified (0ms)
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-09 15:16:09 -0700
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2012-09-09 15:16:09 -0700
+Served asset /_normalize.css - 304 Not Modified (0ms)
+Served asset /application.css - 200 OK (18ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-09 15:16:09 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-09 15:16:09 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-09-09 15:16:09 -0700
+
+
+Started GET "/assets/portfolios.js?body=1" for 127.0.0.1 at 2012-09-09 15:16:09 -0700
+Served asset /pages.js - 304 Not Modified (0ms)
+Served asset /portfolios.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-09 15:16:09 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/header-bg.png" for 127.0.0.1 at 2012-09-09 15:16:09 -0700
+Served asset /header-bg.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-09-09 15:16:09 -0700
+
+
+Started GET "/assets/flama-black-webfont.woff" for 127.0.0.1 at 2012-09-09 15:16:09 -0700
+Served asset /logo.png - 304 Not Modified (0ms)
+Served asset /flama-black-webfont.woff - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-09 15:17:52 -0700
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 3ms
+
+ActionView::MissingTemplate (Missing template home/index, application/index with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee]}. Searched in:
+  * "/Users/rigelstpierre/Dropbox/Everything/Rigel St. Pierre/rigelstpierre/app/views"
+):
+  actionpack (3.2.8) lib/action_view/path_set.rb:58:in `find'
+  actionpack (3.2.8) lib/action_view/lookup_context.rb:109:in `find'
+  actionpack (3.2.8) lib/action_view/renderer/abstract_renderer.rb:3:in `find_template'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:34:in `determine_template'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:10:in `render'
+  actionpack (3.2.8) lib/action_view/renderer/renderer.rb:36:in `render_template'
+  actionpack (3.2.8) lib/action_view/renderer/renderer.rb:17:in `render'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:110:in `_render_template'
+  actionpack (3.2.8) lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  actionpack (3.2.8) lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  actionpack (3.2.8) lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:88:in `render'
+  actionpack (3.2.8) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+  activesupport (3.2.8) lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+  /Users/rigelstpierre/.rvm/rubies/ruby-1.9.3-p0/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+  activesupport (3.2.8) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:39:in `render'
+  actionpack (3.2.8) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (3.2.8) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (3.2.8) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.8) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:414:in `_run__3929624722143720565__process_action__1280803408399110975__callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.8) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.8) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.8) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.8) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  actionpack (3.2.8) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.8) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.8) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.8) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  mongoid (2.5.0) lib/rack/mongoid/middleware/identity_map.rb:33:in `block in call'
+  mongoid (2.5.0) lib/mongoid.rb:133:in `unit_of_work'
+  mongoid (2.5.0) lib/rack/mongoid/middleware/identity_map.rb:33:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/cookies.rb:339:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `_run__3845169420722792957__call__2062628786207402632__callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  railties (3.2.8) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:147:in `handle'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:99:in `rescue in block (2 levels) in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:96:in `block (2 levels) in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `each'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `block in start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `loop'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `start'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:13:in `run'
+  /Users/rigelstpierre/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/bin/nack_worker:4:in `<main>'
+
+
+  Rendered /Users/rigelstpierre/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-09 15:18:26 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 14ms (Views: 14.0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-09-09 15:18:26 -0700
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/portfolios.css?body=1" for 127.0.0.1 at 2012-09-09 15:18:26 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-09 15:18:26 -0700
+Served asset /application.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-09 15:18:26 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+Served asset /portfolios.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/portfolios.js?body=1" for 127.0.0.1 at 2012-09-09 15:18:26 -0700
+Served asset /portfolios.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2012-09-09 15:18:26 -0700
+Served asset /_normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-09 15:18:26 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-09 15:18:26 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-09-09 15:18:26 -0700
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-09-09 15:18:27 -0700
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-09 15:20:52 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Compiled application.css  (138ms)  (pid 91764)
+Completed 200 OK in 180ms (Views: 179.5ms)
+
+
+Started GET "/assets/portfolios.css?body=1" for 127.0.0.1 at 2012-09-09 15:20:53 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-09 15:20:53 -0700
+Served asset /portfolios.css - 304 Not Modified (0ms)
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-09-09 15:20:53 -0700
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2012-09-09 15:20:53 -0700
+Served asset /_normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-09 15:20:53 -0700
+Served asset /pages.css - 304 Not Modified (0ms)
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-09 15:20:53 -0700
+Served asset /application.css - 200 OK (12ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-09-09 15:20:53 -0700
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/portfolios.js?body=1" for 127.0.0.1 at 2012-09-09 15:20:53 -0700
+Served asset /portfolios.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-09 15:20:53 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2012-09-09 15:20:53 -0700
+Served asset /bg.jpg - 200 OK (17ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-09-09 15:20:53 -0700
+
+
+Started GET "/assets/header-bg.png" for 127.0.0.1 at 2012-09-09 15:20:53 -0700
+Served asset /logo.png - 304 Not Modified (0ms)
+Served asset /header-bg.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flama-black-webfont.woff" for 127.0.0.1 at 2012-09-09 15:20:53 -0700
+Served asset /flama-black-webfont.woff - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-09 15:23:35 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Compiled libs/chirp.min.js  (0ms)  (pid 91764)
+Compiled application.js  (29ms)  (pid 91764)
+Completed 200 OK in 124ms (Views: 123.9ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-09-09 15:23:35 -0700
+
+
+Started GET "/assets/portfolios.css?body=1" for 127.0.0.1 at 2012-09-09 15:23:35 -0700
+Served asset /pages.css - 304 Not Modified (0ms)
+Served asset /portfolios.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-09 15:23:35 -0700
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2012-09-09 15:23:36 -0700
+Served asset /_normalize.css - 304 Not Modified (0ms)
+Served asset /application.css - 304 Not Modified (37ms)
+
+
+Started GET "/assets/libs/chirp.min.js?body=1" for 127.0.0.1 at 2012-09-09 15:23:36 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-09 15:23:36 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+Served asset /libs/chirp.min.js - 200 OK (11ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-09-09 15:23:36 -0700
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-09 15:23:36 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/portfolios.js?body=1" for 127.0.0.1 at 2012-09-09 15:23:36 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-09 15:23:36 -0700
+Served asset /portfolios.js - 304 Not Modified (0ms)
+Served asset /application.js - 304 Not Modified (22ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-09-09 15:23:36 -0700
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-09 15:25:52 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 14ms (Views: 13.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-09 15:25:53 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2012-09-09 15:25:53 -0700
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-09-09 15:25:53 -0700
+Served asset /pages.css - 304 Not Modified (0ms)
+Served asset /_normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-09 15:25:53 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/portfolios.css?body=1" for 127.0.0.1 at 2012-09-09 15:25:53 -0700
+Served asset /portfolios.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-09 15:25:53 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/libs/chirp.min.js?body=1" for 127.0.0.1 at 2012-09-09 15:25:53 -0700
+Served asset /libs/chirp.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/portfolios.js?body=1" for 127.0.0.1 at 2012-09-09 15:25:53 -0700
+Served asset /portfolios.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-09-09 15:25:53 -0700
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-09 15:25:53 -0700
+Served asset /application.js - 304 Not Modified (30ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-09-09 15:25:53 -0700
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-09 15:26:35 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 14ms (Views: 13.9ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-09-09 15:26:35 -0700
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2012-09-09 15:26:35 -0700
+Served asset /pages.css - 304 Not Modified (0ms)
+Served asset /_normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-09 15:26:35 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-09 15:26:35 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-09 15:26:35 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/portfolios.css?body=1" for 127.0.0.1 at 2012-09-09 15:26:35 -0700
+Served asset /portfolios.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/libs/chirp.min.js?body=1" for 127.0.0.1 at 2012-09-09 15:26:35 -0700
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-09-09 15:26:35 -0700
+Served asset /pages.js - 304 Not Modified (0ms)
+Served asset /libs/chirp.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/portfolios.js?body=1" for 127.0.0.1 at 2012-09-09 15:26:35 -0700
+Served asset /portfolios.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-09 15:26:35 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-09-09 15:26:35 -0700
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-09 15:28:05 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Compiled home.css  (4ms)  (pid 91764)
+Compiled application.css  (150ms)  (pid 91764)
+Completed 200 OK in 208ms (Views: 208.2ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-09 15:28:05 -0700
+
+
+Started GET "/assets/_normalize.css?body=1" for 127.0.0.1 at 2012-09-09 15:28:05 -0700
+Served asset /_normalize.css - 304 Not Modified (0ms)
+Served asset /home.css - 200 OK (21ms)
+
+
+Started GET "/assets/portfolios.css?body=1" for 127.0.0.1 at 2012-09-09 15:28:05 -0700
+Served asset /portfolios.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-09 15:28:05 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-09 15:28:05 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-09 15:28:05 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+Served asset /application.css - 304 Not Modified (45ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-09-09 15:28:05 -0700
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-09-09 15:28:05 -0700
+Served asset /pages.js - 304 Not Modified (0ms)
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/libs/chirp.min.js?body=1" for 127.0.0.1 at 2012-09-09 15:28:05 -0700
+Served asset /libs/chirp.min.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/portfolios.js?body=1" for 127.0.0.1 at 2012-09-09 15:28:05 -0700
+Served asset /portfolios.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-09 15:28:05 -0700
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-09-09 15:28:05 -0700
+Served asset /logo.png - 304 Not Modified (0ms)
