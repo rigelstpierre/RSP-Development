@@ -1,8 +1,9 @@
 Rigelstpierre::Application.routes.draw do
+
   root :to => 'home#index'
 
-  resources :portfolios
   resources :pages
+  resources :works
 
   match ":id" => 'pages#show'
 end

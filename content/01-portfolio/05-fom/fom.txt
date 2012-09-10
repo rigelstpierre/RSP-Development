@@ -1,7 +1,0 @@
-Client: ICON Worldwide
-----
-WorkType: HTML/CSS, Wordpress, Javascript
-----
-Text: Wordpress site developed for The University of St.Gallen program Foundation of Management.
-----
-Link: http://fom-hsg.ch

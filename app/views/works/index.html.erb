@@ -1,0 +1,8 @@
+<section>
+<% @works.each do |work| %>
+  <div>
+    <a href="<%= work.slug %>"><%= work.name %></a>
+    <img src="/assets/work-thumbnail.png" />
+  </div>
+<% end %>
+</section>

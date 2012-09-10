@@ -1,7 +1,0 @@
-Client: The Phuse
-----
-WorkType: HTML/CSS, Wordpress, Javascript
-----
-Text: Simple wordpress site developed for The Phuse's client Vimtrek
-----
-Link: http://vimtrek.com

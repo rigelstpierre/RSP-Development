@@ -1,7 +1,0 @@
-Client: The Phuse/DreamHost
-----
-WorkType: HTML/CSS, Sphinx Documentation  , Javascript, Responsive
-----
-Text: This was one of the hardest but most rewarding projects I ever worked on. Sphinx Documentation was not easy to apply styling to. I'm hoping to open source it sometime soon and blog about the process. Designed by the fabulous team at The Phuse.
-----
-Link: http://docs.dreamobjects.net/index.html

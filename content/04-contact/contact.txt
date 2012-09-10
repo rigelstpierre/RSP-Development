@@ -1,7 +1,0 @@
-Title: Contact
-----
-Subtitle: get in touch!
-----
-Pagetitle: Get in Contact!
-----
-Text: I'm is always interested in new and exciting things. Weither it be a new project, a cool idea you have or just to talk over a coffee. Just fill out the form below and I'll get back to you in about 24-48 hours. 

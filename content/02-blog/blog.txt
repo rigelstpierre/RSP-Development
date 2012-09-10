@@ -1,6 +1,0 @@
-Title: Articles
-----
-Subtitle: read my blog
-----
-Text: This is a nice Demo Blog. 
-----    

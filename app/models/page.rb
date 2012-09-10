@@ -6,4 +6,6 @@ class Page
   field :slug, :type => String
 
   slug :slug
+
+  attr_accessible :title, :content, :slug
 end
